@@ -1,7 +1,7 @@
 import m from 'mithril';
 
 import '@/css/main.css';
-
+m.route.prefix = '';
 m.route(document.body, '/', {
   '/': {
     onmatch: () => new Promise((resolve) => {
