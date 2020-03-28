@@ -10,7 +10,8 @@ module.exports = {
     },
     'parserOptions': {
         'ecmaVersion': 2018,
-        'sourceType': 'module'
+        'sourceType': 'module',
+        'allowImportExportEverywhere': true
     },
     'rules': {
         'indent': [

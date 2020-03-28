@@ -5,6 +5,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "./bin/app.js",
+    chunkFilename: "./bin/[name].bit.js",
     publicPath: "/"
   },
   devtool: "source-map",
@@ -36,4 +37,11 @@ module.exports = {
       },
     ],
   },
+  optimization: {
+    splitChunks: {
+      cacheGroups: {
+        vendor: { test: /[\\/]node_modules[\\/]/, name: "common", chunks: "all" }
+      }
+    }
+  }
 }
