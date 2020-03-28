@@ -1,4 +1,9 @@
-h1 {
+html, body {
+  margin: 0px;
   font-family: sans-serif;
-  text-decoration: underline;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
 }

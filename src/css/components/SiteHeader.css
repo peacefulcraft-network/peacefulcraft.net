@@ -1,0 +1,25 @@
+#site_header {
+  height: 52px;
+  background-color: #A9DCA9;
+}
+
+#site_header_content {
+  display: flex;
+  align-items: center;
+  height: 52px;
+  padding-left: 5vw;
+  padding-right: calc(5vw + 30px);
+}
+
+#site_header_logo {
+  height: 30px;
+}
+
+#site_header_title {
+  margin: auto;
+}
+
+#site_header_title a {
+  text-decoration: none;
+  color: #FFF;
+}
