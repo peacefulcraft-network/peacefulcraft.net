@@ -1,11 +1,13 @@
 /* eslint-disable */
 const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "./bin/app.js",
-    chunkFilename: "./bin/[name].bit.js",
+    path: path.resolve(__dirname, "bin"),
+    filename: "app.[hash:8].js",
+    chunkFilename: "[name].bit.[hash:8].js",
     publicPath: "/"
   },
   devtool: "source-map",
@@ -43,5 +45,11 @@ module.exports = {
         vendor: { test: /[\\/]node_modules[\\/]/, name: "common", chunks: "all" }
       }
     }
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'PeacefulCraft Network',
+      inject: 'body',
+    })
+  ]
 }
