@@ -1,7 +1,5 @@
 import m from 'mithril';
 
-import Header from '@/components/SiteHeader';
-import PCNLogo from '@/components/assets/PCNLogo';
 import GridImageModal from '@/components/GridImageModal/GridImageModal';
 
 // Style imports
@@ -15,13 +13,6 @@ import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
 export default {
   view: () => {
     return [
-      m(Header,
-        m('div', { id: 'site_header_content'}, [
-          m(m.route.Link, { href: '/' }, m(PCNLogo, { id: 'site_header_logo' })),
-          m('h3', { id: 'site_header_title' }, m(m.route.Link, { href: '/' }, 'PeacefulCraft Network')),
-        ])  
-      ),
-
       m('div#landing_page_content', [
         m('div.landing_page_section_title', 'Gamemodes'),
         m(GridImageModal, {
