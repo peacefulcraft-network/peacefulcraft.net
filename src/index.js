@@ -4,6 +4,7 @@ import DefaultLayout from '@/layouts/DefaultLayout';
 
 import '@/css/main.css';
 
+import CreativeCopy from '@/copy/gamemodes/Creative';
 import SurvivalCopy from '@/copy/gamemodes/Survival';
 
 m.route.prefix = '#!';
@@ -19,9 +20,18 @@ m.route(document.body, '/', {
 
   '/gamemode/survival': {
     onmatch: () => new Promise((resolve) => {
-      import(/* webpackChunkName: "SurvivalServerPage" */ '@/pages/ServerPage')
-        .then(({default: SurvivalPage}) => {
-          resolve({view: () => m(DefaultLayout, m(SurvivalPage, { copy: SurvivalCopy})) });
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
+        .then(({default: ServerPage}) => {
+          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: SurvivalCopy})) });
+        });
+    }),
+  },
+
+  '/gamemode/creative': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
+        .then(({default: ServerPage}) => {
+          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: CreativeCopy})) });
         });
     }),
   },
