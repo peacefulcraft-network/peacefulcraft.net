@@ -1,0 +1,31 @@
+.tabed_pane {
+  width: 100%;
+}
+
+.tabed_pane .tab_pane_header {
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+}
+
+.tabed_pane .tab_pane_header .tab_pane_header_tab {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #EEE;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border: 1px solid #DDD;
+  border-bottom: none;
+  color: #42BDDC;
+
+  cursor: pointer;
+}
+
+.tabed_pane .tab_pane_header .tab_pane_header_tab.selected {
+  margin-bottom: -1px;
+  background-color: #FFF;
+}
+
+.tabed_pane .tab_pane_body {
+  border: 1px solid #DDD;
+  border-top: none;
+}

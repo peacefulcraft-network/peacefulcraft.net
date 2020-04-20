@@ -1,9 +1,25 @@
 html, body {
   margin: 0px;
   font-family: sans-serif;
-  color: #111;
+  color: #344;
 }
 
 a {
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4F4F4F;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
 }
