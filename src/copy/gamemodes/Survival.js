@@ -32,7 +32,7 @@ export default {
     ],
     'Direct Connect': [
       {
-        instruction: 'Direct connect to PvE witht he follow ip.',
+        instruction: 'Direct connect to PvE with the follow ip.',
         code: 'pve.peacefulcraft.net',
       },
       {
@@ -48,6 +48,6 @@ export default {
 
   resourceLinks: [
     { title: 'PvE Forums', href: 'https://www.peacefulcraft.net/t/pve' },
-    { title: 'Night Vision and RTP Plugin', href: 'https://github.com/peacefulcraft-network/PCNEssentials' }
+    { title: 'Night Vision and RTP Plugin', href: 'https://github.com/peacefulcraft-network/PCNEssentials' },
   ],
 };
