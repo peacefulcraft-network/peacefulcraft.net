@@ -4,7 +4,7 @@
   "description": "SwordCraftOnline Website",
   "main": "index.js",
   "scripts": {
-    "build": "rm -r bin; webpack src/index.js -p",
+    "build": "webpack src/index.js -p",
     "dev:lint": "eslint src/**/*.js --fix",
     "dev:start": "webpack-dev-server"
   },
