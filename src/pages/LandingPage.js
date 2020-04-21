@@ -7,6 +7,7 @@ import '@/css/pages/LandingPage.css';
 
 // Asset Imports
 import PvE from '@/assets/images/LandingPage/PvE_Spawn.png';
+import Aincrad from '@/assets/images/SCO/Aincrad.png';
 import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
 
@@ -46,11 +47,11 @@ export default {
               href: '/gamemode/trenchpvp'
             },
             { 
-              img: `background-image: url('${ PvE }')`,
-              alt: 'PvE World Spawn During Sunset',
+              img: `background-image: url('${ Aincrad }')`,
+              alt: 'Aincrad Castle from Sword Art Online',
               title: 'SwordCraftOnline RPG',
               desc: 'SwordCraftOnline is a custom RPG MMO experieince developed inhouse. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world fighting custom monsters, dungeon bosses, leveling your character, and aquiring new Sword Skills to vanquish your foes.',
-              href: '/gamemode/peaceful'
+              href: '/gamemode/sco'
             },
             { 
               img: `background-image: url('${ PvE }')`,

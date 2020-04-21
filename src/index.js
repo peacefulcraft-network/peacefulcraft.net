@@ -27,11 +27,29 @@ m.route(document.body, '/', {
     }),
   },
 
+  '/gamemode/peaceful': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
+        .then(({default: ServerPage}) => {
+          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: SurvivalCopy})) });
+        });
+    }),
+  },
+
   '/gamemode/creative': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
           resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: CreativeCopy})) });
+        });
+    }),
+  },
+
+  '/gamemode/sco': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "SwordCraftOnlineLandingPage" */ '@/pages/SwordCraftOnlineLandingPage')
+        .then(({default: SwordCraftOnlineLandingPage}) => {
+          resolve({view: () => m(SwordCraftOnlineLandingPage, '') });
         });
     }),
   },
