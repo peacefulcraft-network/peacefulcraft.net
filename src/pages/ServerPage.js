@@ -13,7 +13,7 @@ export default {
     const obj = {};
     Object.keys(instructions).forEach((k) => {
       obj[k] = m('div', instructions[k].map((i) => {
-        return m(TabedPane_CodeInstruction, {...i});
+        return m(TabedPane_CodeInstruction, i);
       }));
     });
     return obj;
