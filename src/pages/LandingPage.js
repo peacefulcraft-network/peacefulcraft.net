@@ -6,7 +6,8 @@ import GridImageModal from '@/components/GridImageModal/GridImageModal';
 import '@/css/pages/LandingPage.css';
 
 // Asset Imports
-import PvE from '@/assets/images/LandingPage/PvE_Spawn.png';
+import PvE from '@/assets/images/LandingPage/PvESpawn.png';
+import Northridge from '@/assets/images/LandingPage/Northridge.png';
 import Aincrad from '@/assets/images/SCO/Aincrad.png';
 import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
@@ -26,7 +27,7 @@ export default {
               href: '/gamemode/survival'
             },
             { 
-              img: `background-image: url('${ PvE }')`,
+              img: `background-image: url('${ Northridge }')`,
               alt: 'PvE World Spawn During Sunset',
               title: 'Peaceful',
               desc: 'Vanilla Minecraft with peaceful difficulty with a few tweeks and tools to provide build protection, teleporting, unlimted homes, keep inventory on death, and a player-run economy.',

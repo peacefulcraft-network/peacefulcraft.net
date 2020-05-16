@@ -1,10 +1,14 @@
-import PvE_Spawn from '@/assets/images/LandingPage/PvE_Spawn.png';
-import Octocat from '@/assets/images/LandingPage/GitHub_Banner.png';
+import PvESpawn from '@/assets/images/PvE/PvESpawn.png';
+import PekoInc from '@/assets/images/PvE/PekoInc.png';
+import Frankens from '@/assets/images/PvE/Frankens.png';
+import BoneZone from '@/assets/images/PvE/TheBoneZone.png';
 
 export default {
   slideshow: {
-    'Survival - World Spawn': PvE_Spawn,
-    'Octocat - GitHub': Octocat, 
+    'World Spawn': PvESpawn,
+    'Peko Industries Outpost': PekoInc,
+    'Nation of Frank Capital - Frankens': Frankens,
+    'Town of Bonezone': BoneZone,
   },
   
   infoBlurb: `Player versus environment survival is the oldest gamemode on the network. PvE is designed to facilitate a relaxed 
