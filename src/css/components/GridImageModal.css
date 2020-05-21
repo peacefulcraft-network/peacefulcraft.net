@@ -54,3 +54,16 @@ div.grid_image_info_desc {
   font-size: 18px;
   letter-spacing: 0.5px;
 }
+
+@media screen and (max-width: 1366px) {
+  div.grid_image_modal {
+    grid-template-columns: repeat(2, 45vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.grid_image_modal {
+    grid-template-columns: 90vw;
+    row-gap: 1.5vh;
+  }
+}
