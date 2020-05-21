@@ -8,8 +8,10 @@ import '@/css/pages/LandingPage.css';
 // Asset Imports
 import PvE from '@/assets/images/LandingPage/PvESpawn.png';
 import Northridge from '@/assets/images/LandingPage/Northridge.png';
-import Quarry from '@/assets/images/Trench/Quarry.png';
-import Aincrad from '@/assets/images/SCO/Aincrad.png';
+import Creative from '@/assets/images/LandingPage/GridTile.png';
+import Quarry from '@/assets/images/LandingPage/Quarry.png';
+import Aincrad from '@/assets/images/LandingPage/Aincrad.png';
+import Minigames from '@/assets/images/LandingPage/Minigames.png';
 import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
 
@@ -35,8 +37,8 @@ export default {
               href: '/gamemode/peaceful'
             },
             { 
-              img: `background-image: url('${ PvE }')`,
-              alt: 'PvE World Spawn During Sunset',
+              img: `background-image: url('${ Creative }')`,
+              alt: 'User-built plots on the PCN creative plots server',
               title: 'Creative Plots',
               desc: 'Creative world divided into claimable plots with environment custimaizations to enhance builds and WorldEdit to streamline building.',
               href: '/gamemode/creative'
@@ -56,8 +58,8 @@ export default {
               href: '/gamemode/sco'
             },
             { 
-              img: `background-image: url('${ PvE }')`,
-              alt: 'PvE World Spawn During Sunset',
+              img: `background-image: url('${ Minigames }')`,
+              alt: 'PCN Minigames Lobby',
               title: 'Minigames',
               desc: 'Our Minigame server features a wide aray of classic Minecraft games; BedWars, King of the Ladder, Mazes, MobArena, Parkour, and Spleef.',
               href: '/gamemode/creative'
