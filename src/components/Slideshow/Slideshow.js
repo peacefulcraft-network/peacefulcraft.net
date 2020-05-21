@@ -6,7 +6,7 @@ import '@/css/components/Slideshow.css';
 
 export default {
   oninit: (vnode) => {
-    vnode.state.slideShowstate = new SlideshowState(1000);
+    vnode.state.slideShowstate = new SlideshowState(1400);
 
     vnode.cycleSlideshowTask = setInterval(() => {
       vnode.state.slideShowstate.cycle();
