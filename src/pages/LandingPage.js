@@ -8,6 +8,7 @@ import '@/css/pages/LandingPage.css';
 // Asset Imports
 import PvE from '@/assets/images/LandingPage/PvESpawn.png';
 import Northridge from '@/assets/images/LandingPage/Northridge.png';
+import Quarry from '@/assets/images/Trench/Quarry.png';
 import Aincrad from '@/assets/images/SCO/Aincrad.png';
 import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
@@ -28,7 +29,7 @@ export default {
             },
             { 
               img: `background-image: url('${ Northridge }')`,
-              alt: 'PvE World Spawn During Sunset',
+              alt: 'Town of Northridge in the Peaceful World',
               title: 'Peaceful',
               desc: 'Vanilla Minecraft with peaceful difficulty with a few tweeks and tools to provide build protection, teleporting, unlimted homes, keep inventory on death, and a player-run economy.',
               href: '/gamemode/peaceful'
@@ -41,8 +42,8 @@ export default {
               href: '/gamemode/creative'
             },
             { 
-              img: `background-image: url('${ PvE }')`,
-              alt: 'PvE World Spawn During Sunset',
+              img: `background-image: url('${ Quarry }')`,
+              alt: 'TrenchPvP Arena - Quarry',
               title: 'TrenchPvP',
               desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirley custom experience from our inhouse development team. Our custom classes and abilities are sure to provide endles entertainment and hilarity.',
               href: '/gamemode/trenchpvp'
