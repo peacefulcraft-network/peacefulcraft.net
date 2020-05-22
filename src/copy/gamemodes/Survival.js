@@ -2,6 +2,8 @@ import PvESpawn from '@/assets/images/PvE/PvESpawn.png';
 import PekoInc from '@/assets/images/PvE/PekoInc.png';
 import Frankens from '@/assets/images/PvE/Frankens.png';
 import BoneZone from '@/assets/images/PvE/TheBoneZone.png';
+import AnimalTopia from '@/assets/images/PvE/AnimalTopia.png';
+import FarmTopia from '@/assets/images/PvE/FarmTopia.png';
 
 export default {
   slideshow: {
@@ -9,6 +11,8 @@ export default {
     'Peko Industries Outpost': PekoInc,
     'Nation of Frank Capital - Frankens': Frankens,
     'Town of Bonezone': BoneZone,
+    'Public Crop Farms \'Farm Topia\' by xRyqnn': FarmTopia,
+    'Public Aniaml Farms \'Aniaml Topia\' by xRyqnn': AnimalTopia,
   },
   
   infoBlurb: `Player versus environment survival is the oldest gamemode on the network. PvE is designed to facilitate a relaxed 
