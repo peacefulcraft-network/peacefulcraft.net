@@ -30,7 +30,7 @@ export default {
               img: `background-image: url('${ PvE }')`,
               alt: 'PvE World Spawn During Sunset',
               title: 'Survival',
-              desc: 'Vanilla Minecraft surival with a few tweeks and tools to provide build protection, teleporting, unlimted homes, keep inventory on death, and a player-run economy.',
+              desc: 'Vanilla Minecraft with a few tweeks and tools to provide build protection, teleporting, unlimted homes, keep inventory on death, and a player-run economy.',
               href: '/gamemode/survival'
             },
             { 
@@ -44,29 +44,29 @@ export default {
               img: `background-image: url('${ Creative }')`,
               alt: 'User-built plots on the PCN creative plots server',
               title: 'Creative Plots',
-              desc: 'Creative world divided into claimable plots with environment custimaizations to enhance builds and WorldEdit to streamline building.',
+              desc: 'Creative world divided into claimable plots with environment customizations to enhance builds and WorldEdit to streamline building.',
               href: '/gamemode/creative'
             },
             { 
               img: `background-image: url('${ Quarry }')`,
               alt: 'TrenchPvP Arena - Quarry',
               title: 'TrenchPvP',
-              desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirley custom experience from our inhouse development team. Our custom classes and abilities are sure to provide endles entertainment and hilarity.',
+              desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirely custom experience from our inhouse development team. Our custom classes and abilities are sure to provide endless entertainment and hilarity.',
               href: '/gamemode/trenchpvp'
             },
             { 
               img: `background-image: url('${ Aincrad }')`,
               alt: 'Aincrad Castle from Sword Art Online',
               title: 'SwordCraftOnline RPG',
-              desc: 'SwordCraftOnline is a custom RPG MMO experieince developed inhouse. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world fighting custom monsters, dungeon bosses, leveling your character, and aquiring new Sword Skills to vanquish your foes.',
+              desc: 'SwordCraftOnline is a custom RPG MMO experience developed in-house. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world fighting custom monsters, dungeon bosses, leveling your character, and acquiring new Sword Skills to vanquish your foes.',
               href: '/gamemode/sco'
             },
             { 
               img: `background-image: url('${ Minigames }')`,
               alt: 'PCN Minigames Lobby',
               title: 'Minigames',
-              desc: 'Our Minigame server features a wide aray of classic Minecraft games; BedWars, King of the Ladder, Mazes, MobArena, Parkour, and Spleef.',
-              href: '/gamemode/creative'
+              desc: 'Our Minigame server features a wide array of classic Minecraft games; BedWars, King of the Ladder, Mazes, MobArena, Parkour, and Spleef.',
+              href: '/gamemode/minigames'
             },
           ]}),
         m('div', { style: 'height: 40px;'}),
@@ -92,7 +92,7 @@ export default {
               img: `background-image: url('${ TransgressionBanner }')`,
               alt: 'Gavel Icon',
               title: 'Transgressions',
-              desc: 'All our bans, kicks, mutes, and warnings are publically available in real time.',
+              desc: 'All our bans, kicks, mutes, and warnings are publicly available in real time.',
               href: 'https://adm.peacefulcraft.net/batweb',
             },
             { 
@@ -106,14 +106,14 @@ export default {
               img: `background-image: url('${ GitHub }')`,
               alt: 'GitHub Logo',
               title: 'Development Projects',
-              desc: 'Do you know how to program, design websites, 3D model, make textures or logos, or have a desire to learn how to do any of those things? All our websites, resource packs, and custom plugins are posted publically on our GitHub. Feel free to contribute or comb over our code for your own reference.',
+              desc: 'Do you know how to program, design websites, 3D model, make textures or logos, or have a desire to learn how to do any of those things? All our websites, resource packs, and custom plugins are posted publicly on our GitHub. Feel free to contribute or comb over our code for your own reference.',
               href: 'https://github.com/peacefulcraft-network',
             },
             { 
               img: `background-image: url('${ NetworkStatus }')`,
               alt: 'Generic Status Graph',
               title: 'Network Status',
-              desc: 'Having connection issues? Or maybe you just like pretty graphs. We publish most of our server monitoring statistics publically and in realtime.',
+              desc: 'Having connection issues? Or maybe you just like pretty graphs. We publish most of our server monitoring statistics publicly and in realtime.',
               href: 'https://status.peacefulcraft.net/d/Y7XZ86XZz/peacefulcraft-network-system-overview?orgId=1&refresh=1m&from=now-30m&to=now',
             },
           ]}),
