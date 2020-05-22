@@ -30,14 +30,14 @@ export default {
               img: `background-image: url('${ PvE }')`,
               alt: 'PvE World Spawn During Sunset',
               title: 'Survival',
-              desc: 'Vanilla Minecraft with a few tweeks and tools to provide build protection, teleporting, unlimted homes, keep inventory on death, and a player-run economy.',
+              desc: 'Vanilla Minecraft with a few tweaks and tools to provide build protection, teleporting, unlimited homes, keep inventory on death, and a player-run economy.',
               href: '/gamemode/survival'
             },
             { 
               img: `background-image: url('${ Northridge }')`,
               alt: 'Town of Northridge in the Peaceful World',
               title: 'Peaceful',
-              desc: 'Vanilla Minecraft with peaceful difficulty with a few tweeks and tools to provide build protection, teleporting, unlimted homes, keep inventory on death, and a player-run economy.',
+              desc: 'Vanilla Minecraft with peaceful difficulty with a few tweaks and tools to provide build protection, teleporting, unlimited homes, keep inventory on death, and a player-run economy.',
               href: '/gamemode/peaceful'
             },
             { 
@@ -51,14 +51,14 @@ export default {
               img: `background-image: url('${ Quarry }')`,
               alt: 'TrenchPvP Arena - Quarry',
               title: 'TrenchPvP',
-              desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirely custom experience from our inhouse development team. Our custom classes and abilities are sure to provide endless entertainment and hilarity.',
+              desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirely custom experience from our in-house development team. Our custom classes and abilities are sure to provide endless entertainment and hilarity.',
               href: '/gamemode/trenchpvp'
             },
             { 
               img: `background-image: url('${ Aincrad }')`,
               alt: 'Aincrad Castle from Sword Art Online',
               title: 'SwordCraftOnline RPG',
-              desc: 'SwordCraftOnline is a custom RPG MMO experience developed in-house. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world fighting custom monsters, dungeon bosses, leveling your character, and acquiring new Sword Skills to vanquish your foes.',
+              desc: 'SwordCraftOnline is a custom RPG MMO experience developed in-house. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world, fighting custom monsters, dungeon bosses, leveling your character, and acquiring new Sword Skills to vanquish your foes.',
               href: '/gamemode/sco'
             },
             { 
