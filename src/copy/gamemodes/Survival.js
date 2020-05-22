@@ -15,7 +15,7 @@ export default {
     'Public Aniaml Farms \'Aniaml Topia\' by xRyqnn': AnimalTopia,
   },
   
-  infoBlurb: `Player versus environment survival is the oldest gamemode on the network. PvE is designed to facilitate a relaxed 
+  infoBlurb: `Player versus environment survival is the oldest game mode on the network. PvE is designed to facilitate a relaxed 
   and laidback playstyle. Players have access to unlimited homes, keep inventory on death, a player-run mall with
   shops and trading, random teleports, night vision, daytime toggle, personal time, custom nicknames, and Towny 
   for protecting their builds. Inventories between PvE and Peaceful are shared so anyone wishing to move between 

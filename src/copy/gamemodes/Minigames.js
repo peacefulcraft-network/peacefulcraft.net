@@ -17,7 +17,7 @@ export default {
   
   infoBlurb: `Our Minigames server is a bit small right now, but we have plans to improove our offerings soon.
               Of what we do have, all mazes, parkour courses, and arenas are custom made. While we won't be competing
-              with the likes of Hypixel anytime soon, we try to offer a small spread of popular gamemodes that can be played
+              with the likes of Hypixel anytime soon, we try to offer a small spread of popular game modes that can be played
               without coordinating a party off-network.`,
 
   connectInstructions: {
