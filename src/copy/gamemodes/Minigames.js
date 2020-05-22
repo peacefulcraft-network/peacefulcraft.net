@@ -12,7 +12,7 @@ export default {
     'Catacombs Maze': Catacombs,
     'Fight Club Ring': FightClub,
     'King of the Ladder': KingOfTheLadder,
-    'Midieval Build Competition Runner-up: Photonixe - Dragons Nest': RainbowParkour,
+    'Rainbow Parkour': RainbowParkour,
   },
   
   infoBlurb: `Our Minigames server is a bit small right now, but we have plans to improve our offerings soon.
