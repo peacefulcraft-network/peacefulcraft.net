@@ -50,6 +50,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'PeacefulCraft Network',
       inject: 'body',
+      template: 'public/index.html'
     })
   ]
 }
