@@ -6,6 +6,7 @@ import '@/css/main.css';
 
 import CreativeCopy from '@/copy/gamemodes/Creative';
 import SurvivalCopy from '@/copy/gamemodes/Survival';
+import PeacefulCopy from './copy/gamemodes/Peaceful';
 import TrenchCopy from './copy/gamemodes/Trench';
 
 m.route.prefix = '#!';
@@ -32,7 +33,7 @@ m.route(document.body, '/', {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
-          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: SurvivalCopy})) });
+          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: PeacefulCopy})) });
         });
     }),
   },
