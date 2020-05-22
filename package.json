@@ -1,7 +1,7 @@
 {
-  "name": "scoweb",
+  "name": "peacefulcraftnetwork",
   "version": "0.0.1",
-  "description": "SwordCraftOnline Website",
+  "description": "PeacefulCraft Network Main Website",
   "main": "index.js",
   "scripts": {
     "build": "webpack src/index.js -p",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peacefulcraft-network/SCOWeb.git"
+    "url": "git+https://github.com/peacefulcraft-network/peacefulcraft.net.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peacefulcraft-network/SCOWeb/issues"
+    "url": "https://github.com/peacefulcraft-network/peacefulcraft.net/issues"
   },
-  "homepage": "https://github.com/peacefulcraft-network/SCOWeb#readme",
+  "homepage": "https://peacefulcraft.net",
   "dependencies": {
     "mithril": "^2.0.4"
   },
