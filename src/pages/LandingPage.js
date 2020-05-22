@@ -113,7 +113,7 @@ export default {
               img: `background-image: url('${ NetworkStatus }')`,
               alt: 'Generic Status Graph',
               title: 'Network Status',
-              desc: 'Having connection issues? Or maybe you just checking out pretty graphs. We publish most of our server monitoring statistics publically and in realtime.',
+              desc: 'Having connection issues? Or maybe you just like pretty graphs. We publish most of our server monitoring statistics publically and in realtime.',
               href: 'https://status.peacefulcraft.net/d/Y7XZ86XZz/peacefulcraft-network-system-overview?orgId=1&refresh=1m&from=now-30m&to=now',
             },
           ]}),
