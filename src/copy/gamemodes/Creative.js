@@ -20,28 +20,28 @@ export default {
   },
   
   infoBlurb: `The PeacefulCraft creative plot server is a great place to exercise your building skills, prototype builds for survival, or just mess around
-    friends. All users have access to 63x63 block plots the ability to merge up to 4 contiguous plots together in any fashion to get more space. Our powerful
+    with friends. All users have access to 63x63 block plots with the ability to merge up to 4 contiguous plots together in any fashion to get more space. Our powerful
     plot management plugin, PlotSquared, provides players with extensive control over their plot with the ability to change key features like weather, time of day,
     biome, physics, and mob behavior. All users have limited access to WorldEdit to augment their building abilities.`,
 
   connectInstructions: {
     'Hub': [
       {
-        instruction: 'Connect to our network hub server with the following ip.',
+        instruction: 'Connect to our network hub server with the following ip:',
         code: 'peacefulcraft.net',
       },
       {
-        instruction: 'Use the following command to join the PvE Server.',
+        instruction: 'Use the following command to join the PvE Server:',
         code: '/server plot',
       },
     ],
     'Direct Connect': [
       {
-        instruction: 'Direct connect to Creative with the follow ip.',
+        instruction: 'Direct connect to Creative with the follow ip:',
         code: 'creative.peacefulcraft.net',
       },
       {
-        instruction: 'Players can still switch between servers when using the direct connect domains. The following command will take you to our hub server.',
+        instruction: 'Players can still switch between servers when using the direct connect domains. The following command will take you to our hub server:',
         code: '/server creative',
       },
     ],
