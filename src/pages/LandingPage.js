@@ -13,8 +13,11 @@ import Quarry from '@/assets/images/LandingPage/Quarry.png';
 import Aincrad from '@/assets/images/LandingPage/Aincrad.png';
 import Minigames from '@/assets/images/LandingPage/Minigames.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
+import ForumsBanner from '@/assets/images/LandingPage/Forums.png';
+import TransgressionBanner from '@/assets/images/LandingPage/Transgressions.png';
 import VotingBanner from '@/assets/images/LandingPage/Voting.png';
 import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
+import NetworkStatus from '@/assets/images/LandingPage/NetworkStatus.png';
 
 export default {
   view: () => {
@@ -79,14 +82,14 @@ export default {
               href: 'https://discord.peacefulcraft.net',
             },
             { 
-              img: `background-image: url('${ PvE }')`,
+              img: `background-image: url('${ ForumsBanner }')`,
               alt: 'Forum Icon',
               title: 'Forums',
               desc: 'Check out our forums for server announcements, staff applications, ban appeals, ideas and suggestions, reporting incidents, getting help, and interacting with the community.',
               href: 'https://www.peacefulcraft.net',
             },
             { 
-              img: `background-image: url('${ PvE }')`,
+              img: `background-image: url('${ TransgressionBanner }')`,
               alt: 'Gavel Icon',
               title: 'Transgressions',
               desc: 'All our bans, kicks, mutes, and warnings are publically available in real time.',
@@ -103,11 +106,11 @@ export default {
               img: `background-image: url('${ GitHub }')`,
               alt: 'GitHub Logo',
               title: 'Development Projects',
-              desc: 'Do know how to program, design websites, 3D model, make textures or logos, or have a desire to learn how to do any of those things? All our websites, resource packs, and custom plugins are posted publically on our GitHub. Feel free to contribute or comb over our code for your own reference.',
+              desc: 'Do you know how to program, design websites, 3D model, make textures or logos, or have a desire to learn how to do any of those things? All our websites, resource packs, and custom plugins are posted publically on our GitHub. Feel free to contribute or comb over our code for your own reference.',
               href: 'https://github.com/peacefulcraft-network',
             },
             { 
-              img: `background-image: url('${ PvE }')`,
+              img: `background-image: url('${ NetworkStatus }')`,
               alt: 'Generic Status Graph',
               title: 'Network Status',
               desc: 'Having connection issues? Or maybe you just checking out pretty graphs. We publish most of our server monitoring statistics publically and in realtime.',
