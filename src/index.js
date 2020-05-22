@@ -64,4 +64,13 @@ m.route(document.body, '/', {
         });
     }),
   },
+
+  '/voting-links': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "VotingLinksPage" */ '@/pages/VotingLinksPage')
+        .then(({default: VotingLinksPage}) => {
+          resolve({view: () => m(DefaultLayout, m(VotingLinksPage)) });
+        });
+    }),
+  },
 });

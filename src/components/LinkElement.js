@@ -6,7 +6,7 @@ import m from 'mithril';
  */
 export default {
   view: (vnode) => {
-    if (vnode.attrs.href.indexOf('http') === 0) {
+    if (vnode.attrs.href !== undefined && vnode.attrs.href.indexOf('http') === 0) {
       return m('a', {
         style: 'text-decoration: none; color: inherit;',
         href: vnode.attrs.href,

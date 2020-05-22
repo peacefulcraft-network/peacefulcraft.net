@@ -12,8 +12,9 @@ import Creative from '@/assets/images/LandingPage/GridTile.png';
 import Quarry from '@/assets/images/LandingPage/Quarry.png';
 import Aincrad from '@/assets/images/LandingPage/Aincrad.png';
 import Minigames from '@/assets/images/LandingPage/Minigames.png';
-import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
+import VotingBanner from '@/assets/images/LandingPage/Voting.png';
+import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 
 export default {
   view: () => {
@@ -92,11 +93,11 @@ export default {
               href: 'https://adm.peacefulcraft.net/batweb',
             },
             { 
-              img: `background-image: url('${ PvE }')`,
+              img: `background-image: url('${ VotingBanner }')`,
               alt: 'Ballot Icon',
               title: 'Voting Links',
               desc: 'Want to support the server? Vote for our server listings on Minecraft server list websites to help others find our community.',
-              href: '/server-listings',
+              href: '/voting-links',
             },
             { 
               img: `background-image: url('${ GitHub }')`,
