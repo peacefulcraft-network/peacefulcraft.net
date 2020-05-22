@@ -4,9 +4,9 @@ import Canyons from '@/assets/images/Trench/Canyons.png';
 
 export default {
   slideshow: {
-    'Trench Arena Quarry': Quarry,
-    'Trench Arena Serenity': Serenity,
-    'Trench Arena Canyons': Canyons,
+    'Trench Arena "Quarry"': Quarry,
+    'Trench Arena "Serenity"': Serenity,
+    'Trench Arena "Canyons"': Canyons,
   },
   
   infoBlurb: `TrenchPvP is a custom PvP gamemode developed in house by the PeacefulCraft Network. Trench is a KitPvP

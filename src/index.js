@@ -8,6 +8,7 @@ import CreativeCopy from '@/copy/gamemodes/Creative';
 import SurvivalCopy from '@/copy/gamemodes/Survival';
 import PeacefulCopy from './copy/gamemodes/Peaceful';
 import TrenchCopy from './copy/gamemodes/Trench';
+import MinigamesCopy from '@/copy/gamemodes/Minigames';
 
 m.route.prefix = '#!';
 m.route(document.body, '/', {
@@ -61,6 +62,15 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "SwordCraftOnlineLandingPage" */ '@/pages/SwordCraftOnlineLandingPage')
         .then(({default: SwordCraftOnlineLandingPage}) => {
           resolve({view: () => m(SwordCraftOnlineLandingPage, '') });
+        });
+    }),
+  },
+
+  '/gamemode/minigames': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
+        .then(({default: ServerPage}) => {
+          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: MinigamesCopy})) });
         });
     }),
   },
