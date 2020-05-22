@@ -9,14 +9,14 @@ import StefanXMidieval2 from '@/assets/images/CreativePage/StefanXMedievalBuildC
 
 export default {
   slideshow: {
-    'Midieval Build Competition Winner - EssoABC and Luna_Tuna123 - Village Overlook': EssoLunaMidieval1,
-    'Midieval Build Competition Winner - EssoABC and Luna_Tuna123 - Cavern Entrance': EssoLunaMidieval2,
-    'Midieval Build Competition Winner - EssoABC and Luna_Tuna123 - Caverns Deep': EssoLunaMidieval3,
-    'Midieval Build Competition Runner-up - Photonixe - Village Overlook': PhotonixieMidieval1,
-    'Midieval Build Competition Runner-up - Photonixe - Interior': PhotonixieMidieval2,
-    'Midieval Build Competition Runner-up - Photonixe - Dragons Nest': PhotonixieMidieval3,
-    'Midieval Build Competition Runner-up - StefanX14 - Village Overlook': StefanXMidieval1,
-    'Midieval Build Competition Runner-up - StefanX14 - Mushroom Caverns': StefanXMidieval2,
+    'Midieval Build Competition Winner: EssoABC and Luna_Tuna123 - Village Overlook': EssoLunaMidieval1,
+    'Midieval Build Competition Winner: EssoABC and Luna_Tuna123 - Cavern Entrance': EssoLunaMidieval2,
+    'Midieval Build Competition Winner: EssoABC and Luna_Tuna123 - Caverns Deep': EssoLunaMidieval3,
+    'Midieval Build Competition Runner-up:  Photonixe - Village Overlook': PhotonixieMidieval1,
+    'Midieval Build Competition Runner-up: Photonixe - Interior': PhotonixieMidieval2,
+    'Midieval Build Competition Runner-up: Photonixe - Dragons Nest': PhotonixieMidieval3,
+    'Midieval Build Competition Runner-up: StefanX14 - Village Overlook': StefanXMidieval1,
+    'Midieval Build Competition Runner-up: StefanX14 - Mushroom Caverns': StefanXMidieval2,
   },
   
   infoBlurb: `The PeacefulCraft creative plot server is a great place to excersise your building skills, prototype builds for survival, or just mess around
