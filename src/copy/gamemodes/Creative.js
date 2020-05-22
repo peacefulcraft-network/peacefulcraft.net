@@ -19,9 +19,9 @@ export default {
     'Midieval Build Competition Runner-up: StefanX14 - Mushroom Caverns': StefanXMidieval2,
   },
   
-  infoBlurb: `The PeacefulCraft creative plot server is a great place to excersise your building skills, prototype builds for survival, or just mess around
-    friends. All users have access to 63x63 block plots the ability to merge up to 4 contigious plots together in any fashion to get more space. Our powerful
-    plot managment plugin, PlotSquared, provides players with extensive control over their plot with the ability to change key features like weather, time of day,
+  infoBlurb: `The PeacefulCraft creative plot server is a great place to exercise your building skills, prototype builds for survival, or just mess around
+    friends. All users have access to 63x63 block plots the ability to merge up to 4 contiguous plots together in any fashion to get more space. Our powerful
+    plot management plugin, PlotSquared, provides players with extensive control over their plot with the ability to change key features like weather, time of day,
     biome, physics, and mob behavior. All users have limited access to WorldEdit to augment their building abilities.`,
 
   connectInstructions: {
