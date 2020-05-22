@@ -12,7 +12,7 @@ export default {
     'Nation of Frank Capital - Frankens': Frankens,
     'Town of Bonezone': BoneZone,
     'Public Crop Farms \'Farm Topia\' by xRyqnn': FarmTopia,
-    'Public Aniaml Farms \'Animal Topia\' by xRyqnn': AnimalTopia,
+    'Public Animal Farms \'Animal Topia\' by xRyqnn': AnimalTopia,
   },
   
   infoBlurb: `Player versus environment survival is the oldest game mode on the network. PvE is designed to facilitate a relaxed 
