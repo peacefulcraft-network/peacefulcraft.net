@@ -15,7 +15,7 @@ export default {
     'Midieval Build Competition Runner-up: Photonixe - Dragons Nest': RainbowParkour,
   },
   
-  infoBlurb: `Our Minigames server is a bit small right now, but we have plans to improove our offerings soon.
+  infoBlurb: `Our Minigames server is a bit small right now, but we have plans to improve our offerings soon.
               Of what we do have, all mazes, parkour courses, and arenas are custom made. While we won't be competing
               with the likes of Hypixel anytime soon, we try to offer a small spread of popular game modes that can be played
               without coordinating a party off-network.`,
@@ -23,21 +23,21 @@ export default {
   connectInstructions: {
     'Hub': [
       {
-        instruction: 'Connect to our network hub server with the following ip.',
+        instruction: 'Connect to our network hub server with the following ip:',
         code: 'peacefulcraft.net',
       },
       {
-        instruction: 'Use the following command to join the Minigames Server.',
+        instruction: 'Use the following command to join the Minigames Server:',
         code: '/server minigames',
       },
     ],
     'Direct Connect': [
       {
-        instruction: 'Direct connect to Creative with the follow ip.',
+        instruction: 'Direct connect to Creative with the follow ip:',
         code: 'mgm.peacefulcraft.net',
       },
       {
-        instruction: 'Players can still switch between servers when using the direct connect domains. The following command will take you to our hub server.',
+        instruction: 'Players can still switch between servers when using the direct connect domains. The following command will take you to our hub server:',
         code: '/server minigames',
       },
     ],
