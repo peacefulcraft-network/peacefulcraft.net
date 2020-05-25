@@ -3,7 +3,8 @@
 }
 
 #banner_page .banner_page_banner {
-  width: unset;
+  max-width: 100vw;
+  width: 100vw;
   height: 100px;
   margin: auto;
   text-align: center;
@@ -16,16 +17,6 @@
 
 #banner_page .banner_page_banner img {
   height: 100px;
-}
-
-#banner_page .banner_page_pillars {
-  width: 100vw;
-  /* Gets height from completed animation */
-  animation: BannerPagePillarRollIn 1s ease-in-out 1s 1 normal forwards;
-}
-@keyframes BannerPagePillarRollIn {
-  0% { height: 0px; }
-  100% { height: calc(100vh - 100px - 52px); }
 }
 
 #banner_page .banner_page_content {

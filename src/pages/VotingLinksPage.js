@@ -15,12 +15,6 @@ export default {
         }
       }, m('img', { src: VotingBanner})),
 
-      m('.banner_page_pillars', {
-        style: {
-          backgroundColor: '#21AA4B',
-        },
-      }),
-
       m('.banner_page_content', [
         m('h1.banner_page_title', 'Voting Links'),
         m('div.banner_page_links', [
