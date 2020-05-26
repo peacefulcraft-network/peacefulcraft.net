@@ -32,3 +32,9 @@ jobs:
         eval "$(ssh-agent -s)"
         ssh-add - <<< "${{ secrets.CDN_INGRESS_KEY }}"
         scp -o StrictHostKeyChecking=no -v -P "${{ secrets.CDN_INGRESS_PORT }}" -r bin/* "${{ secrets.CDN_INGRESS_USER }}"@"${{ secrets.CDN_INGRESS }}":"${{ secrets.CDN_PATH }}"
+    
+    - name: Delete the old version
+      run: |
+        eval "$(ssh-agent -s)"
+        ssh-add - <<< "${{ secrets.CDN_INGRESS_KEY }}"
+        ssh -p "${{ secrets.CDN_INGRESS_PORT }}" "${{ secrets.CDN_INGRESS_USER }}"@"${{ secrets.CDN_INGRESS }}" find "${{ secrets.CDN_PATH }}" -mmin +2 -type f -exec rm {}
