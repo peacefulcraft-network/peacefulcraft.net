@@ -48,7 +48,7 @@ export default {
   },
 
   resourceLinks: [
-    { title: 'Creative Plot Forums', href: 'https://www.peacefulcraft.net/t/creative' },
+    { title: 'Creative Plot Forums', href: 'https://www.peacefulcraft.net/flarum/t/creative' },
     { title: 'Plot claiming and usage tutorial', href: 'https://www.youtube.com/watch?v=gpYujK9tJoo' },
     { title: 'Plot plugin official documentation', href: 'https://github.com/IntellectualSites/PlotSquared/wiki' },
   ],
