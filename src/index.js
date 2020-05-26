@@ -11,12 +11,18 @@ import TrenchCopy from './copy/gamemodes/Trench';
 import MinigamesCopy from '@/copy/gamemodes/Minigames';
 
 m.route.prefix = '#!';
+
+function onRouteChange() {
+  window.scrollTo(0, 0);
+}
+
 m.route(document.body, '/', {
   '/': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "LandingPage" */ '@/pages/LandingPage')
         .then(({ default: LandingPage}) => {
           resolve({view: () => m(DefaultLayout, m(LandingPage)) });
+          onRouteChange();
         });
     }),
   },
@@ -26,6 +32,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
           resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: SurvivalCopy})) });
+          onRouteChange();
         });
     }),
   },
@@ -35,6 +42,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
           resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: PeacefulCopy})) });
+          onRouteChange();
         });
     }),
   },
@@ -44,6 +52,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
           resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: CreativeCopy})) });
+          onRouteChange();
         });
     }),
   },
@@ -53,6 +62,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
           resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: TrenchCopy})) });
+          onRouteChange();
         });
     }),
   },
@@ -62,6 +72,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "SwordCraftOnlineLandingPage" */ '@/pages/SwordCraftOnlineLandingPage')
         .then(({default: SwordCraftOnlineLandingPage}) => {
           resolve({view: () => m(SwordCraftOnlineLandingPage, '') });
+          onRouteChange();
         });
     }),
   },
@@ -71,6 +82,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
           resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: MinigamesCopy})) });
+          onRouteChange();
         });
     }),
   },
@@ -80,6 +92,7 @@ m.route(document.body, '/', {
       import(/* webpackChunkName: "VotingLinksPage" */ '@/pages/VotingLinksPage')
         .then(({default: VotingLinksPage}) => {
           resolve({view: () => m(DefaultLayout, m(VotingLinksPage)) });
+          onRouteChange();
         });
     }),
   },
