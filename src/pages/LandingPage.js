@@ -86,7 +86,7 @@ export default {
               alt: 'Forum Icon',
               title: 'Forums',
               desc: 'Check out our forums for server announcements, staff applications, ban appeals, ideas and suggestions, reporting incidents, getting help, and interacting with the community.',
-              href: 'https://www.peacefulcraft.net',
+              href: 'https://www.peacefulcraft.net/flarum',
             },
             { 
               img: `background-image: url('${ TransgressionBanner }')`,
