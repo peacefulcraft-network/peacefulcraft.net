@@ -37,4 +37,4 @@ jobs:
       run: |
         eval "$(ssh-agent -s)"
         ssh-add - <<< "${{ secrets.CDN_INGRESS_KEY }}"
-        ssh -p "${{ secrets.CDN_INGRESS_PORT }}" "${{ secrets.CDN_INGRESS_USER }}"@"${{ secrets.CDN_INGRESS }}" find "${{ secrets.CDN_PATH }}" -mmin +2 -type f -exec rm {}
+        ssh -p "${{ secrets.CDN_INGRESS_PORT }}" "${{ secrets.CDN_INGRESS_USER }}"@"${{ secrets.CDN_INGRESS }}" find "${{ secrets.CDN_PATH }}" -mmin +2 -type f -exec rm {} \;
