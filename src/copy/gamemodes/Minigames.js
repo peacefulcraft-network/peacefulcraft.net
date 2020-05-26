@@ -44,7 +44,7 @@ export default {
   },
 
   resourceLinks: [
-    { title: 'Minigames Forums', href: 'https://www.peacefulcraft.net/t/minigames' },
+    { title: 'Minigames Forums', href: 'https://www.peacefulcraft.net/flarum/t/minigames' },
     { title: 'TrenchPvP', href: '/gamemode/trenchpvp' },
     { title: 'SwordCraftOnline', href: '/gamemode/sco' },
   ],

@@ -55,7 +55,7 @@ export default {
   },
 
   resourceLinks: [
-    { title: 'PvE Forums', href: 'https://www.peacefulcraft.net/t/pve' },
+    { title: 'PvE Forums', href: 'https://www.peacefulcraft.net/flarum/t/pve' },
     { title: 'Night Vision and RTP Plugin', href: 'https://github.com/peacefulcraft-network/PCNEssentials' },
   ],
 };
