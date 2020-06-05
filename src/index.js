@@ -21,57 +21,82 @@ m.route(document.body, '/', {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "LandingPage" */ '@/pages/LandingPage')
         .then(({ default: LandingPage}) => {
-          resolve({view: () => m(DefaultLayout, m(LandingPage)) });
+          resolve(LandingPage);
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 
   '/gamemode/survival': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
-          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: SurvivalCopy})) });
+          resolve({
+            view: () => m(ServerPage, { copy: SurvivalCopy })
+          });
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 
   '/gamemode/peaceful': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
-          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: PeacefulCopy})) });
+          resolve({
+            view: () => m(ServerPage, { copy: PeacefulCopy})
+          });
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 
   '/gamemode/creative': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
-          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: CreativeCopy})) });
+          resolve({
+            view: () => m(ServerPage, { copy: CreativeCopy})
+          });
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 
   '/gamemode/trenchpvp': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
-          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: TrenchCopy})) });
+          resolve({
+            view: () => m(ServerPage, { copy: TrenchCopy})
+          });
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 
   '/gamemode/sco': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "SwordCraftOnlineLandingPage" */ '@/pages/SwordCraftOnlineLandingPage')
         .then(({default: SwordCraftOnlineLandingPage}) => {
-          resolve({view: () => m(SwordCraftOnlineLandingPage, '') });
+          resolve({
+            view: () => m(SwordCraftOnlineLandingPage, '')
+          });
           onRouteChange();
         });
     }),
@@ -81,19 +106,29 @@ m.route(document.body, '/', {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
         .then(({default: ServerPage}) => {
-          resolve({view: () => m(DefaultLayout, m(ServerPage, { copy: MinigamesCopy})) });
+          resolve({
+            view: () => m(ServerPage, { copy: MinigamesCopy})
+          });
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 
   '/voting-links': {
     onmatch: () => new Promise((resolve) => {
       import(/* webpackChunkName: "VotingLinksPage" */ '@/pages/VotingLinksPage')
         .then(({default: VotingLinksPage}) => {
-          resolve({view: () => m(DefaultLayout, m(VotingLinksPage)) });
+          resolve({
+            view: () => m(VotingLinksPage)
+          });
           onRouteChange();
         });
     }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
   },
 });
