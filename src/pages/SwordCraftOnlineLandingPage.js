@@ -18,7 +18,7 @@ export default {
       m('.gradient_olverlay'),
       m('.announcement_wrapper', [
         m('h1.title', 'Sword Craft Online'),
-        m('h3.soon', 'Coming Summer 2020')
+        m('h3.soon', 'Coming Fall 2020')
       ]),
     ]);
   },
