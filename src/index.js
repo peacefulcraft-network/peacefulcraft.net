@@ -4,12 +4,6 @@ import DefaultLayout from '@/layouts/DefaultLayout';
 
 import '@/css/main.css';
 
-import CreativeCopy from '@/copy/gamemodes/Creative';
-import SurvivalCopy from '@/copy/gamemodes/Survival';
-import PeacefulCopy from './copy/gamemodes/Peaceful';
-import TrenchCopy from './copy/gamemodes/Trench';
-import MinigamesCopy from '@/copy/gamemodes/Minigames';
-
 m.route.prefix = '#!';
 
 function onRouteChange() {
@@ -31,14 +25,13 @@ m.route(document.body, '/', {
   },
 
   '/gamemode/survival': {
-    onmatch: () => new Promise((resolve) => {
-      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
-        .then(({default: ServerPage}) => {
-          resolve({
-            view: () => m(ServerPage, { copy: SurvivalCopy })
-          });
-          onRouteChange();
-        });
+    onmatch: () => Promise.all([
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
+      import(/* webpackChunkName: "SurvivalPageCopy" */ '@/copy/gamemodes/Survival')
+    ]).then((values) => {
+      return {
+        view: () => m(values[0].default, { copy: values[1].default})
+      };
     }),
     render: (vnode) => {
       return m(DefaultLayout, vnode);
@@ -46,14 +39,13 @@ m.route(document.body, '/', {
   },
 
   '/gamemode/peaceful': {
-    onmatch: () => new Promise((resolve) => {
-      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
-        .then(({default: ServerPage}) => {
-          resolve({
-            view: () => m(ServerPage, { copy: PeacefulCopy})
-          });
-          onRouteChange();
-        });
+    onmatch: () => Promise.all([
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
+      import(/* webpackChunkName: "PeacefulPageCopy" */ '@/copy/gamemodes/Peaceful')
+    ]).then((values) => {
+      return {
+        view: () => m(values[0].default, { copy: values[1].default})
+      };
     }),
     render: (vnode) => {
       return m(DefaultLayout, vnode);
@@ -61,14 +53,13 @@ m.route(document.body, '/', {
   },
 
   '/gamemode/creative': {
-    onmatch: () => new Promise((resolve) => {
-      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
-        .then(({default: ServerPage}) => {
-          resolve({
-            view: () => m(ServerPage, { copy: CreativeCopy})
-          });
-          onRouteChange();
-        });
+    onmatch: () => Promise.all([
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
+      import(/* webpackChunkName: "CreativePageCopy" */ '@/copy/gamemodes/Creative')
+    ]).then((values) => {
+      return {
+        view: () => m(values[0].default, { copy: values[1].default})
+      };
     }),
     render: (vnode) => {
       return m(DefaultLayout, vnode);
@@ -76,14 +67,13 @@ m.route(document.body, '/', {
   },
 
   '/gamemode/trenchpvp': {
-    onmatch: () => new Promise((resolve) => {
-      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
-        .then(({default: ServerPage}) => {
-          resolve({
-            view: () => m(ServerPage, { copy: TrenchCopy})
-          });
-          onRouteChange();
-        });
+    onmatch: () => Promise.all([
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
+      import(/* webpackChunkName: "TrenchPageCopy" */ '@/copy/gamemodes/Trench')
+    ]).then((values) => {
+      return {
+        view: () => m(values[0].default, { copy: values[1].default})
+      };
     }),
     render: (vnode) => {
       return m(DefaultLayout, vnode);
@@ -103,14 +93,13 @@ m.route(document.body, '/', {
   },
 
   '/gamemode/minigames': {
-    onmatch: () => new Promise((resolve) => {
-      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage')
-        .then(({default: ServerPage}) => {
-          resolve({
-            view: () => m(ServerPage, { copy: MinigamesCopy})
-          });
-          onRouteChange();
-        });
+    onmatch: () => Promise.all([
+      import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
+      import(/* webpackChunkName: "MinigamesPageCopy" */ '@/copy/gamemodes/Minigames')
+    ]).then((values) => {
+      return {
+        view: () => m(values[0].default, { copy: values[1].default})
+      };
     }),
     render: (vnode) => {
       return m(DefaultLayout, vnode);
