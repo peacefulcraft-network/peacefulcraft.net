@@ -23,3 +23,8 @@
   text-decoration: none;
   color: #FFF;
 }
+
+#site_header_content .site_header_link {
+  margin-left: 16px;
+  color: #FFF;
+}
