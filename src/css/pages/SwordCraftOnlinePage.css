@@ -34,6 +34,9 @@
 }
 
 #sco .background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   animation: fadeIn ease-in-out 3s;
   -webkit-animation: fadeIn ease-in-out 3s;
   -moz-animation: fadeIn ease-in-out 3s;
