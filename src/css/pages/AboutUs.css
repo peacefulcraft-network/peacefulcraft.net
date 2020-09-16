@@ -4,3 +4,12 @@
   align-items: center;
   margin: 0 10vw;
 }
+
+#about_us_page h5 {
+  margin-bottom: 0px;
+}
+
+#about_us_page p {
+  margin-top: 10px;
+  letter-spacing: 0.6px;
+}
