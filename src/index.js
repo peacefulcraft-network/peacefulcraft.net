@@ -39,6 +39,21 @@ m.route(document.body, '/', {
     },
   },
 
+  '/staff': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "StaffPage" */ '@/pages/Staff')
+        .then(({default: StaffPage}) => {
+          resolve({
+            view: () => m(StaffPage)
+          });
+          onRouteChange();
+        });
+    }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
+  },
+
   '/gamemode/survival': {
     onmatch: () => Promise.all([
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
