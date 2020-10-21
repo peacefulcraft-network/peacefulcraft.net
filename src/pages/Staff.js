@@ -1,6 +1,9 @@
 import m from 'mithril';
 
+import BlueLink from '@/components/BlueLinkElement.js';
+
 import '@/css/pages/StaffPage.css';
+import BlueLinkElement from '../components/BlueLinkElement';
 
 export default class Staff {
   view() {
@@ -81,6 +84,13 @@ export default class Staff {
 
       m('h5', 'Who to contact?'),
       m('p.rules_and_expectations__copy', 'Whether it be questions, comments, concerns, or a report; any network staff member can help out. We encourage users to reach out to which ever staff member(s) they fell comfortable conversing with. When possible and upon user request, any information provided in a report may be anonymized before being handed off to an administrator with the authority to address any given report.'),
+
+      m('h5', 'How to report?'),
+      m('p.rules_and_expectations__copy', [
+        'Given the sensitive nature of most R&E violations, we usually ask for discretion in the early phases of reporting and investigating. Discord DMs to any staff member or emails to our support inbox,',
+        m(BlueLinkElement, { href: 'mailto:support@peacefulcraft.net'}, ' support@peacefulcraft.net'),
+        ', are preferred. Mail to the support inbox goes to Parsonswy and will be shared with other members of staff as needed'
+      ]),
 
       m('iframe.rules_and_expectations__embed', {
         frameBorder: 0,
