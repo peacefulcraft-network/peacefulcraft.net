@@ -27,19 +27,19 @@ export default {
       m('p', `
         PeacefulCraft first came online in October of 2012 as a small, single eight slot server offering a standard survival experience. We had a small, but dedicated staff team with minimal administration 
         experience and little organized direction over where we wanted to take the server. In spite of our impulsive origins, the server soon began to amass a growing base of consistent players. Eight slots 
-        were not enough and with the closing of our first server host, Avante Hosting, and so we migrated to a much roomier 18 slot server. With added slots, RAM, a responsibility to our newfound community, 
-        and passion; we worked to grow our small server with new game modes, minigames, and quality-of-life improvements. This included our now signature peaceful gamemode.
+        were not enough and with the closing of our first server host, Avante Hosting, we migrated to a much roomier 18 slot server. With added slots, RAM, a responsibility to our newfound community, 
+        and passion; we worked to grow our small server with new game modes, minigames, and quality-of-life improvements. This included our now signature peaceful game mode.
       `),
       m('p', `
-        After six months our ambition once again began to outgrow our technical capacity. At this point, PeacefulCraft moved from our home at McPro Hosting to our first official partnership with the now defunct Void Hosting. 
+        After six months, our ambition once again began to outgrow our technical capacity. At this point, PeacefulCraft moved from our home at McPro Hosting to our first official partnership with the now-defunct Void Hosting. 
         Without this partnership, PeacefulCraft would not be anywhere near what it is today. For it was here that we were afforded the technical expertise and resources necessary to begin dreaming of moving from a single Minecraft server 
-        to a network of servers. In the summer of 2013 this dream was realized when PeacefulCraft was reborn as PeacefulCraft Network with the launch of our Minigames server. Soon after minigames, we would launch a creative-plots server, 
-        a custom TDM gamemode known as Trench, and a custom PvP factions server.
+        to a network of servers. In the summer of 2013, this dream was realized when PeacefulCraft was reborn as PeacefulCraft Network with the launch of our Minigames server. Soon after minigames, we would launch a creative-plots server, 
+        a custom TDM game mode known as Trench, and a custom PvP factions server.
       `),
       m('p', `
         2014 brought a lot of change for the network. Ever shifting irl commitments, schedules, and priorities saw much of the original PeacefulCraft community drop-off. Though it was in pursuit of bigger and better things, these newly-vacant 
         creative and administrative positions marked a drop-off of the staff team's ability to meet the needs of the community. Through 2015 and 2016, network growth stagnated and soon turned to regression. October of 2016 saw a drastic 
-        restructuring of the staff team with then three year owner Parsonswy stepping down. 
+        restructuring of the staff team with then three-year owner Parsonswy stepping down. 
       `),
       m('p', `
         CNIAngel would lead the server from October of 2016 to December of 2018, with SoloProtecter taking intern leadership for several weeks in January of 2019. In true Internet cultural fashion, a quick succession of dramatic online and offline 
