@@ -24,6 +24,36 @@ m.route(document.body, '/', {
     },
   },
 
+  '/about': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "AboutUsPage" */ '@/pages/AboutUs')
+        .then(({default: AboutUsPage}) => {
+          resolve({
+            view: () => m(AboutUsPage)
+          });
+          onRouteChange();
+        });
+    }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
+  },
+
+  '/staff': {
+    onmatch: () => new Promise((resolve) => {
+      import(/* webpackChunkName: "StaffPage" */ '@/pages/Staff')
+        .then(({default: StaffPage}) => {
+          resolve({
+            view: () => m(StaffPage)
+          });
+          onRouteChange();
+        });
+    }),
+    render: (vnode) => {
+      return m(DefaultLayout, vnode);
+    },
+  },
+
   '/gamemode/survival': {
     onmatch: () => Promise.all([
       import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
