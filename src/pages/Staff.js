@@ -35,16 +35,15 @@ export default class Staff {
         m('div.active_staff__flex-member', [
           m('h5', 'Assistants'),
           m('ul', [
+            m('li', 'EssoABC'),
             m('li', 'Illyrial'),
-            m('li', 'Tomsenn'),
+            m('li', '_LunarM00n_'),
           ]),   
         ]),
 
         m('div.active_staff__flex-member', [
           m('h5', 'Project Members'),
           m('ul', [
-            m('li', 'EssoABC'),
-            m('li', '_LunarM00n_'),
             m('li', 'StefanX14')
           ]),
         ]),
