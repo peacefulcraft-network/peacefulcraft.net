@@ -56,7 +56,7 @@ module.exports = {
       patterns: [
         { from: '*.png', context: 'public' },
         { from: '*.ico', context: 'public' },
-        { from: '*.webmanifest', context: 'public' },
+        { from: '*.json', context: 'public' },
       ],
     }),
   ]
