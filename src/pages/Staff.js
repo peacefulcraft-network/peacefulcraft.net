@@ -40,13 +40,6 @@ export default class Staff {
             m('li', '_LunarM00n_'),
           ]),   
         ]),
-
-        m('div.active_staff__flex-member', [
-          m('h5', 'Project Members'),
-          m('ul', [
-            m('li', 'StefanX14')
-          ]),
-        ]),
       ]),
 
       m('div.former_staff__wrapper', [
@@ -61,12 +54,15 @@ export default class Staff {
           m('span.former_staff__entry', 'HugeCliff'),
           m('span.former_staff__entry', 'ISeeYouTrollin'),
           m('span.former_staff__entry', 'jmarioman'),
+          m('span.former_staff__entry', 'king_oliver22'),
           m('span.former_staff__entry', 'Melpy'),
           m('span.former_staff__entry', 'MistyrialA4'),
           m('span.former_staff__entry', 'Ohio2017'),
           m('span.former_staff__entry', 'Panclaws'),
           m('span.former_staff__entry', 'Sidious82'),
           m('span.former_staff__entry', 'Sniper_4_Life'),
+          m('span.former_staff__entry', 'StefanX14'),
+          m('span.former_staff__entry', 'Tomsenn'),
           m('span.former_staff__entry', 'Toxic_Hit'),
           m('span.former_staff__entry', 'Tune_Link007'),
         ]),
