@@ -18,6 +18,9 @@ import TransgressionBanner from '@/assets/images/LandingPage/Transgressions.png'
 import VotingBanner from '@/assets/images/LandingPage/Voting.png';
 import GitHub from '@/assets/images/LandingPage/GitHub_Banner.png';
 import NetworkStatus from '@/assets/images/LandingPage/NetworkStatus.png';
+import InstagramBanner from '@/assets/images/LandingPage/Instagram.png';
+import TwitterBanner from '@/assets/images/LandingPage/Twitter.png';
+import TwtichBanner from '@/assets/images/LandingPage/Twitch.png';
 
 export default {
   view: () => {
@@ -69,6 +72,34 @@ export default {
               href: '/gamemode/minigames'
             },
           ]}),
+        m('div', { style: 'height: 40px;'}),
+
+        m('div.landing_page_section_title', 'Media'),
+        m(GridImageModal, {
+          images: [
+            { 
+              img: `background-image: url('${ InstagramBanner }')`,
+              alt: 'Instagram camera glyph on red and purble gradient background',
+              title: 'Instagram',
+              desc: 'Keep up with PeacefulCraft news, events, and other happenings. Follow us on Instagram and never miss an update.',
+              href: 'https://www.instagram.com/peacefulcraftnetwork/',
+            },
+            { 
+              img: `background-image: url('${ TwitterBanner }')`,
+              alt: 'Twitter Logo on Blue Background',
+              title: 'Twitter',
+              desc: 'Keep up with PeacefulCraft news, events, and other happenings. Follow us on Twitter and never miss an update.',
+              href: 'https://twitter.com/PeaceCFNT',
+            },
+            { 
+              img: `background-image: url('${ TwtichBanner }')`,
+              alt: 'Twitch logo on purple background',
+              title: 'Twitch',
+              desc: 'Catch us live on Twitch! We stream community events and casual gaming sessions led by prominent members of the community.',
+              href: 'https://www.twitch.tv/peacefulcraftnt',
+            },        
+          ],
+        }),
         m('div', { style: 'height: 40px;'}),
 
         m('div.landing_page_section_title', 'Community Resources'),

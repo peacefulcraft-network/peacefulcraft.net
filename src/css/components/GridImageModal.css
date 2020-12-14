@@ -1,9 +1,9 @@
 div.grid_image_modal {
   display: grid;
-  grid-template-columns: repeat(3, 28vw);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 250px;
-  row-gap: 3vh;
-  column-gap: 2vw;
+  row-gap: 0;
+  column-gap: 0;
   align-content: center;
 }
 
@@ -63,7 +63,6 @@ div.grid_image_info_desc {
 
 @media screen and (max-width: 768px) {
   div.grid_image_modal {
-    grid-template-columns: 90vw;
-    row-gap: 1.5vh;
+    grid-template-columns: 1fr;
   }
 }
