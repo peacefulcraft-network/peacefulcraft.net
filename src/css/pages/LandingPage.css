@@ -9,3 +9,11 @@ div.landing_page_section_title {
   margin-bottom: 15px;
   color: #5D5D5D;
 }
+
+@media screen and (max-width: 768px) {
+  #landing_page_content {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 0;
+  }
+}
