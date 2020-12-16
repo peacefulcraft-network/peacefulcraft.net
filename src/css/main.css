@@ -1,34 +1,35 @@
-html, body {
-  margin: 0px;
-  font-family: sans-serif;
-  color: #344;
+html,
+body {
+	margin: 0;
+	font-family: sans-serif;
+	color: #344;
 }
 
 h5 {
-  margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 p {
-  margin-top: 10px;
-  letter-spacing: 0.6px;
+	margin-top: 10px;
+	letter-spacing: 0.6px;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+	width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #4F4F4F;
+	background-color: #4f4f4f;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #666;
+	background-color: #666;
 }
