@@ -60,6 +60,6 @@ module.exports = {
         { from: '*.json', context: 'public' },
       ],
     }),
-    new StylelintPlugin({ configBasedir: './'}),
+    new StylelintPlugin(),
   ]
 }

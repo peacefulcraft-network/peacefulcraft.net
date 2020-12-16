@@ -2,7 +2,7 @@ import m from 'mithril';
 
 import HamburgerNavigationIcon from '@/assets/icons/HamburgerNavigation.svg';
 
-import '@/css/components/HoverDropdownList/HamburgerNavigationIcon.css';
+import '@/css/components/assets/HamburgerNavigationIcon.css';
 
 export default {
   view: () => {
