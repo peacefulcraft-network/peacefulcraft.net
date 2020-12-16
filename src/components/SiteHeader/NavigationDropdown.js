@@ -2,6 +2,7 @@ import m from 'mithril';
 
 import HoverDropdownList from '@/components/HoverDropdownList/HoverDropdownList.js';
 import HambugerNavigationIcon from '@/components/assets/HamburgerNavigationIcon.js';
+import LinkElement from '@/components/LinkElement.js';
 
 import '@/css/components/SiteHeader/NavigationDropdown.css';
 
@@ -20,9 +21,9 @@ export default {
 				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/trenchpvp' }, 'TrenchPvP Game Mode'),
 				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/sco' }, 'Sword Craft Online'),
 				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/minigames' }, 'Minigames Game Modes'),
-				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/https://www.instagram.com/peacefulcraftnetwork/' }, 'Instagram'),
-				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/https://twitter.com/PeaceCFNT' }, 'Twitter'),
-				m(m.route.Link, { class: 'navigation-dropdown__link', href: 'https://www.twitch.tv/peacefulcraftnt' }, 'Twitch'),
+				m(LinkElement, { class: 'navigation-dropdown__link', href: 'https://www.instagram.com/peacefulcraftnetwork/' }, 'Instagram'),
+				m(LinkElement, { class: 'navigation-dropdown__link', href: 'https://twitter.com/PeaceCFNT' }, 'Twitter'),
+				m(LinkElement, { class: 'navigation-dropdown__link', href: 'https://www.twitch.tv/peacefulcraftnt' }, 'Twitch'),
 			]),
 		);
 	},
