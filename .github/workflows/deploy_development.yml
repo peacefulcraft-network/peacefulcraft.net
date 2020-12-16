@@ -5,9 +5,7 @@ name: Deploy Development Site
 
 on:
   push:
-    branches:
-      - '*'
-      - '!master'
+    branches: ['!master', '*']
   workflow_dispatch:
 
 jobs:
