@@ -57,7 +57,7 @@ div.grid_image_info_desc {
 
 @media screen and (max-width: 1366px) {
   div.grid_image_modal {
-    grid-template-columns: repeat(2, 45vw);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

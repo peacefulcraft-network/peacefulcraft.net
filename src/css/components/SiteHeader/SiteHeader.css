@@ -1,0 +1,33 @@
+#site-header {
+  height: 52px;
+  background-color: #A9DCA9;
+}
+
+#site-header .site-header__content {
+  padding: 12px 5vw;
+}
+
+#site-header .site-header__title {
+  position: relative;
+  top: -32px;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+#site-header .site-header__title a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#site-header .site-header__logo-wrapper {
+  position: absolute;
+  top: 12px;
+  right: 5vw;
+  z-index: 2;
+}
+
+#site-header .site-header__logo-wrapper img {
+  height: 30px;
+}

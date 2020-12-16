@@ -1,8 +1,17 @@
 .slideshow {
   position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+
+.slideshow .slideshow_slide {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .slideshow .slideshow_slide.enter {
@@ -22,13 +31,6 @@
 .slideshow .slideshow_slide.leaving {
   transition: left 1.4s ease-in-out;
   left: -100%;
-}
-
-.slideshow .slideshow_slide {
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  height: 100%;
 }
 
 .slideshow .slideshow_slide_image {
