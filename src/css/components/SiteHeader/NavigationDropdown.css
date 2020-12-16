@@ -1,0 +1,22 @@
+.navigation-dropdown__root {
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+}
+
+.navigation-dropdown__root .navigation-dropdown__hover-target {
+	cursor: pointer;
+}
+
+.navigation-dropdown__root:hover .navigation-dropdown__hover-target {
+	filter: invert();
+	opacity: 0.8;
+}
+
+.navigation-dropdown__root .navigation-dropdown__link {
+	display: inline-block;
+	width: 100%;
+	margin: -9px -2px;
+	padding: 9px 0;
+	color: inherit;
+}

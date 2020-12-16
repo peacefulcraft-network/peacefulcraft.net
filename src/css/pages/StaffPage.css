@@ -1,53 +1,53 @@
 #staff_page {
-  margin: 0 10vw;
+	margin: 0 10vw;
 }
 
 #staff_page .section_header {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 #staff_page .active_staff__flex_wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-left: 10px;
 }
 
 #staff_page .active_staff__flex-member {
-  margin: 0 10px;
+	margin: 0 10px;
 }
 
 #staff_page ul {
-  margin-top: 6px;
-  padding-left: 10px;
-  font-size: 14px;
-  list-style-type: none;
+	margin-top: 6px;
+	padding-left: 10px;
+	font-size: 14px;
+	list-style-type: none;
 }
 
 #staff_page .former_staff__wrapper {
-  margin: 20px;
+	margin: 20px;
 }
 
 #staff_page .former_staff__entries {
-  margin: 10px;
-  margin-bottom: 40px;
+	margin: 10px;
+	margin-bottom: 40px;
 }
 
 #staff_page .former_staff__entry {
-  display: inline-block;
-  width: 150px;
-  font-size: 14px;
+	display: inline-block;
+	width: 150px;
+	font-size: 14px;
 }
 
 #staff_page .rules_and_expectations__copy {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 #staff_page .rules_and_expectations__embed {
-  display: block;
-  width: 800px;
-  max-width: 80vw;
-  height: 3700px;
-  margin: 30px auto;
+	display: block;
+	width: 800px;
+	max-width: 80vw;
+	height: 3700px;
+	margin: 30px auto;
 }

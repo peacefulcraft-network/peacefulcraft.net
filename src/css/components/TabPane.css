@@ -1,36 +1,35 @@
 .tabed_pane {
-  width: 100%;
+	width: 100%;
 }
 
 .tabed_pane .tab_pane_header {
-  width: 100%;
-  border-bottom: 1px solid #DDD;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
 }
 
 .tabed_pane .tab_pane_header .tab_pane_header_tab {
-  display: inline-block;
-  padding: 6px 12px;
-  background-color: #EEE;
-  border: 1px solid #DDD;
-  border-bottom: none;
-  color: #42BDDC;
-
-  cursor: pointer;
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-     -moz-user-select: none; /* Old versions of Firefox */
-      -ms-user-select: none; /* Internet Explorer/Edge */
-          user-select: none; /* Non-prefixed version, currently
+	display: inline-block;
+	padding: 6px 12px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	color: #42bddc;
+	cursor: pointer;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
                                 supported by Chrome, Edge, Opera and Firefox */
 }
 
 .tabed_pane .tab_pane_header .tab_pane_header_tab.selected {
-  margin-bottom: -1px;
-  background-color: #FFF;
+	margin-bottom: -1px;
+	background-color: #fff;
 }
 
 .tabed_pane .tab_pane_body {
-  border: 1px solid #DDD;
-  border-top: none;
+	border: 1px solid #ddd;
+	border-top: none;
 }

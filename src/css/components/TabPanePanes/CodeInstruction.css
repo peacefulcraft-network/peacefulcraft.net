@@ -1,18 +1,17 @@
 .code_instruction_component {
-  padding: 8px;
+	padding: 8px;
 }
 
 .code_instruction_component .code_instruction_instruction {
-  margin-bottom: 4px;
-  padding-left: 2px;
-  color: #5D5D5D;
+	margin-bottom: 4px;
+	padding-left: 2px;
+	color: #5d5d5d;
 }
 
 .code_instruction_component .code_instruction_code {
-  padding: 8px 10px;
-  border-radius: 8px;
-  background-color: #EEE;
-  color: #ff9900;
-  
-  cursor: pointer;
+	padding: 8px 10px;
+	border-radius: 8px;
+	background-color: #eee;
+	color: #f90;
+	cursor: pointer;
 }

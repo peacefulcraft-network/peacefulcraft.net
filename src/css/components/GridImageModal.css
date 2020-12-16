@@ -1,68 +1,67 @@
 div.grid_image_modal {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 250px;
-  row-gap: 0;
-  column-gap: 0;
-  align-content: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 250px;
+	row-gap: 0;
+	column-gap: 0;
+	align-content: center;
 }
 
 div.grid_image_cell {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 div.grid_image_cell a {
-  display: inline-block;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
 }
 
 div.grid_image_info {
-  position: relative;
-  overflow: hidden;
-  top: 200px;
-  width: 100%;
-  height: 250px;
-  box-sizing: border-box;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: rgba(0, 0, 0, .3);
-  color: #FFF;
-
-  transition: top 0.4s, background-color 0.2s ease-out;
+	position: relative;
+	overflow: hidden;
+	top: 200px;
+	width: 100%;
+	height: 250px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	transition: top 0.4s, background-color 0.2s ease-out;
 }
 
-div.grid_image_cell:hover div.grid_image_info{
-  top: 0px;
-  background-color: rgba(0, 0, 0, .8);
+div.grid_image_cell:hover div.grid_image_info {
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 div.grid_image_info_title {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 50px;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.8px;
 }
 
 div.grid_image_info_desc {
-  font-size: 18px;
-  letter-spacing: 0.5px;
+	font-size: 18px;
+	letter-spacing: 0.5px;
 }
 
 @media screen and (max-width: 1366px) {
-  div.grid_image_modal {
-    grid-template-columns: repeat(2, 45vw);
-  }
+	div.grid_image_modal {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 @media screen and (max-width: 768px) {
-  div.grid_image_modal {
-    grid-template-columns: 1fr;
-  }
+	div.grid_image_modal {
+		grid-template-columns: 1fr;
+	}
 }
