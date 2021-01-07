@@ -14,7 +14,7 @@ export default class Staff {
 						m('li', 'BrokenKage'),
 						m('li', 'Flaminbrownies'),
 						m('li', m('b', 'parsonswy')),
-						m('li', 'unicornbrunette'),
+						m('li', 'Jumbie247'),
 					]),
 				]),
 
@@ -23,19 +23,19 @@ export default class Staff {
 					m('ul', [
 						m('li', 'Alexkillercat'),
 						m('li', 'beignetboo'),
-						m('li', 'Jumbie247'),
+						m('li', 'EssoABC'),
+						m('li', '_LunarM00n_'),
 						m('li', 'Pyro152'),
 						m('li', 'Silicalia'),
 						m('li', 'Tholmar'),
+						m('li', 'unicornbrunette'),
 					]),
 				]),
 
 				m('div.active_staff__flex-member', [
 					m('h5', 'Assistants'),
 					m('ul', [
-						m('li', 'EssoABC'),
 						m('li', 'Illyrial'),
-						m('li', '_LunarM00n_'),
 					]),   
 				]),
 			]),
