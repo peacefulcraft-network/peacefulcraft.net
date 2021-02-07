@@ -1,0 +1,55 @@
+.player-search-result-row {
+	min-width: 300px;
+	max-width: 600px;
+	height: 60px;
+	margin: 0 auto 20px auto;
+	padding: 6px;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+
+.player-search-result-row .head {
+	float: left;
+	width: 60px;
+	height: 60px;
+}
+
+.player-search-result-row .stats-wrapper {
+	height: 60px;
+	margin-left: 66px;
+}
+
+.player-search-result-row .player-meta {
+	height: 22px;
+	border-bottom: 2px solid #ccc;
+	font-size: 18px;
+}
+
+.player-search-result-row .player-name {
+	float: left;
+	color: #a9dca9;
+}
+
+.player-search-result-row .player-favorite-class {
+	margin-right: 6px;
+	float: right;
+	color: #a9dca9;
+}
+
+.player-search-result-row .kill-stats {
+	display: flex;
+	height: 36px;
+	align-items: flex-end;
+	justify-content: space-between;
+	color: #b2bdb7;
+}
+
+.player-search-result-row .stat-label {
+	font-size: 15px;
+}
+
+.player-search-result-row .stat-value {
+	font-size: 20px;
+	color: #454545;
+}

@@ -150,4 +150,34 @@ m.route(document.body, '/', {
 			return m(DefaultLayout, vnode);
 		},
 	},
+
+	'/player-statistics/': {
+		onmatch: () => new Promise((resolve) => {
+			import(/* webpackChunkName: "PlayerStatisticsPage" */ '@/pages/PlayerStatistics.js')
+				.then(({default: PlayerStatistics}) => {
+					resolve({
+						view: () => m(PlayerStatistics)
+					});
+					onRouteChange();
+				});
+		}),
+		render: (vnode) => {
+			return m(DefaultLayout, vnode);
+		},
+	},
+
+	'/player-statistics/:param': {
+		onmatch: () => new Promise((resolve) => {
+			import(/* webpackChunkName: "PlayerStatisticsPage" */ '@/pages/PlayerStatistics.js')
+				.then(({default: PlayerStatistics}) => {
+					resolve({
+						view: () => m(PlayerStatistics)
+					});
+					onRouteChange();
+				});
+		}),
+		render: (vnode) => {
+			return m(DefaultLayout, vnode);
+		},
+	},
 });

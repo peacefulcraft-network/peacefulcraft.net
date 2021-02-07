@@ -1,0 +1,31 @@
+#player-statistics-page {
+	max-width: 90vw;
+	margin-top: 20px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+#player-statistics-page .search-bar-wrapper {
+	width: 60%;
+	min-width: 370px;
+	margin: auto;
+}
+
+#player-statistics-page .search-results-wrapper {
+	width: 60%;
+	min-width: 370px;
+	margin: 15px auto;
+}
+
+#player-statistics-page .player-stats-profile-wrapper {
+	width: 70vw;
+	height: 80vh;
+	margin: auto;
+	margin-top: 30px;
+	border-radius: 2px;
+	padding-top: 15px;
+}
+
+#player-statistics-page .player-stats-back-btn {
+	margin-bottom: 15px;
+}

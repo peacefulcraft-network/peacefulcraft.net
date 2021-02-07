@@ -1,0 +1,45 @@
+.player-stats-profile {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	min-width: 420px;
+	height: 250px;
+}
+
+.player-stats-profile .profile_header_left img {
+	width: 240px;
+	height: 240px;
+}
+
+.player-stats-profile .profile_header_right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-left: 20px;
+}
+
+.player-stats-profile .profile_header_stat_wrapper {
+	font-size: 24px;
+}
+
+.player-stats-profile .profile_header_stat_label {
+	font-size: 16px;
+}
+
+.player-stats-profile .class_stats {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border-top: 2px solid #ccc;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+.player-stats-profile .class_stat_entry {
+	display: inline-block;
+	width: 18vw;
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+
+.player-stats-profile .class_stat_entry_value {
+	font-size: 24px;
+}

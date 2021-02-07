@@ -1,0 +1,10 @@
+.select-field {
+	width: 100%;
+	height: 30px;
+	outline: none;
+}
+
+.select-field option {
+	font-size: 14px;
+	padding: 2px 0;
+}
