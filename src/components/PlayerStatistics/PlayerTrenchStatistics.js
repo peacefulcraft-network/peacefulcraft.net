@@ -58,9 +58,10 @@ export default class PlayerTrenchStatistics {
 					// Statistics Display Area
 					m('div',
 						AbilityMap[vnode.state.classStatDisplay].map( (pair) =>{
+							let value = (vnode.attrs[pair.key] === undefined)? '-' : vnode.attrs[pair.key];
 							return m('div.class-stat-entry', [
 								m('i', {class: pair.fai, style:'color: #CCC; width: 24px;'}),
-								m('font.class_stat_entry_value', ' ' + vnode.attrs[pair.key]),
+								m('font.class_stat_entry_value', ' ' + value),
 								m('font',{}, ' ' + pair.display),
 							]);
 						})

@@ -19,7 +19,7 @@ export default class PlayerStatistics {
 				PlayerStatisticsService.search(vnode.state.searchParams());
 			});
 		} else {
-			PlayerStatisticsService.fetchProfile(m.route.param('uuid'));
+			PlayerStatisticsService.fetchProfile(m.route.param('param'));
 		}
 	}
 	

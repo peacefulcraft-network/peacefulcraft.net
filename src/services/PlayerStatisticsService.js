@@ -2,7 +2,7 @@ import m from 'mithril';
 
 export default {
 	searchResults: [],
-	searchResultParams: {},
+	searchResultParams: '',
 	search(params = {}) {
 		// Make sure we have something to search for
 		if(params == null || typeof params == 'undefined') {
@@ -62,7 +62,7 @@ export default {
 		// Process the answer
 			.then( (resp) => {
 				if(resp.length == 0){
-					this.profileResults = [];
+					this.profileResults = {};
 					return;
 				}
 				this.profileResults = resp;
