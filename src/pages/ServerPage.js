@@ -22,6 +22,7 @@ export default {
 	view: (vnode) => {
 		return m('#server_page', [
 			m('.server_page_slideshow', m(Slidshow, {
+				key: m.route.get(),
 				slideDelay: 6500,
 				images: vnode.attrs.copy.slideshow,
 			})),

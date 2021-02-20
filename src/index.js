@@ -28,9 +28,7 @@ m.route(document.body, '/', {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "AboutUsPage" */ '@/pages/AboutUs')
 				.then(({default: AboutUsPage}) => {
-					resolve({
-						view: () => m(AboutUsPage)
-					});
+					resolve(AboutUsPage);
 					onRouteChange();
 				});
 		}),
@@ -43,9 +41,7 @@ m.route(document.body, '/', {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "StaffPage" */ '@/pages/Staff')
 				.then(({default: StaffPage}) => {
-					resolve({
-						view: () => m(StaffPage)
-					});
+					resolve(StaffPage);
 					onRouteChange();
 				});
 		}),
@@ -60,11 +56,13 @@ m.route(document.body, '/', {
 			import(/* webpackChunkName: "SurvivalPageCopy" */ '@/copy/gamemodes/Survival')
 		]).then((values) => {
 			return {
-				view: () => m(values[0].default, { copy: values[1].default})
+				view: () => { m('', ''); },
+				server_page: values[0].default,
+				copy: values[1].default
 			};
 		}),
-		render: (vnode) => {
-			return m(DefaultLayout, vnode);
+		render: (fnode) => {
+			return m(DefaultLayout, m(fnode.tag.server_page, { copy: fnode.tag.copy }));
 		},
 	},
 
@@ -74,11 +72,13 @@ m.route(document.body, '/', {
 			import(/* webpackChunkName: "PeacefulPageCopy" */ '@/copy/gamemodes/Peaceful')
 		]).then((values) => {
 			return {
-				view: () => m(values[0].default, { copy: values[1].default})
+				view: () => { m('', ''); },
+				server_page: values[0].default,
+				copy: values[1].default
 			};
 		}),
-		render: (vnode) => {
-			return m(DefaultLayout, vnode);
+		render: (fnode) => {
+			return m(DefaultLayout, m(fnode.tag.server_page, { copy: fnode.tag.copy }));
 		},
 	},
 
@@ -88,11 +88,13 @@ m.route(document.body, '/', {
 			import(/* webpackChunkName: "CreativePageCopy" */ '@/copy/gamemodes/Creative')
 		]).then((values) => {
 			return {
-				view: () => m(values[0].default, { copy: values[1].default})
+				view: () => { m('', ''); },
+				server_page: values[0].default,
+				copy: values[1].default
 			};
 		}),
-		render: (vnode) => {
-			return m(DefaultLayout, vnode);
+		render: (fnode) => {
+			return m(DefaultLayout, m(fnode.tag.server_page, { copy: fnode.tag.copy }));
 		},
 	},
 
@@ -102,11 +104,13 @@ m.route(document.body, '/', {
 			import(/* webpackChunkName: "TrenchPageCopy" */ '@/copy/gamemodes/Trench')
 		]).then((values) => {
 			return {
-				view: () => m(values[0].default, { copy: values[1].default})
+				view: () => { m('', ''); },
+				server_page: values[0].default,
+				copy: values[1].default
 			};
 		}),
-		render: (vnode) => {
-			return m(DefaultLayout, vnode);
+		render: (fnode) => {
+			return m(DefaultLayout, m(fnode.tag.server_page, { copy: fnode.tag.copy }));
 		},
 	},
 
@@ -114,9 +118,7 @@ m.route(document.body, '/', {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "SwordCraftOnlineLandingPage" */ '@/pages/SwordCraftOnlineLandingPage')
 				.then(({default: SwordCraftOnlineLandingPage}) => {
-					resolve({
-						view: () => m(SwordCraftOnlineLandingPage, '')
-					});
+					resolve(SwordCraftOnlineLandingPage);
 					onRouteChange();
 				});
 		}),
@@ -128,11 +130,13 @@ m.route(document.body, '/', {
 			import(/* webpackChunkName: "MinigamesPageCopy" */ '@/copy/gamemodes/Minigames')
 		]).then((values) => {
 			return {
-				view: () => m(values[0].default, { copy: values[1].default})
+				view: () => { m('', ''); },
+				server_page: values[0].default,
+				copy: values[1].default
 			};
 		}),
-		render: (vnode) => {
-			return m(DefaultLayout, vnode);
+		render: (fnode) => {
+			return m(DefaultLayout, m(fnode.tag.server_page, { copy: fnode.tag.copy }));
 		},
 	},
 
@@ -140,9 +144,7 @@ m.route(document.body, '/', {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "VotingLinksPage" */ '@/pages/VotingLinksPage')
 				.then(({default: VotingLinksPage}) => {
-					resolve({
-						view: () => m(VotingLinksPage)
-					});
+					resolve(VotingLinksPage);
 					onRouteChange();
 				});
 		}),
@@ -155,9 +157,7 @@ m.route(document.body, '/', {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "PlayerStatisticsPage" */ '@/pages/PlayerStatistics.js')
 				.then(({default: PlayerStatistics}) => {
-					resolve({
-						view: () => m(PlayerStatistics)
-					});
+					resolve(PlayerStatistics);
 					onRouteChange();
 				});
 		}),
@@ -170,9 +170,7 @@ m.route(document.body, '/', {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "PlayerStatisticsPage" */ '@/pages/PlayerStatistics.js')
 				.then(({default: PlayerStatistics}) => {
-					resolve({
-						view: () => m(PlayerStatistics)
-					});
+					resolve(PlayerStatistics);
 					onRouteChange();
 				});
 		}),
