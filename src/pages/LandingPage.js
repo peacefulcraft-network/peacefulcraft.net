@@ -11,7 +11,6 @@ import Northridge from '@/assets/images/LandingPage/Northridge.png';
 import Creative from '@/assets/images/LandingPage/GridTile.png';
 import Quarry from '@/assets/images/LandingPage/Quarry.png';
 import Aincrad from '@/assets/images/LandingPage/Aincrad.png';
-import Minigames from '@/assets/images/LandingPage/Minigames.png';
 import DiscordBanner from '@/assets/images/LandingPage/Discord_Banner.png';
 import ForumsBanner from '@/assets/images/LandingPage/Forums.png';
 import TransgressionBanner from '@/assets/images/LandingPage/Transgressions.png';
@@ -63,13 +62,6 @@ export default {
 							title: 'SwordCraftOnline RPG',
 							desc: 'SwordCraftOnline is a custom RPG MMO experience developed in-house. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world, fighting custom monsters, dungeon bosses, leveling your character, and acquiring new Sword Skills to vanquish your foes.',
 							href: '/gamemode/sco'
-						},
-						{ 
-							img: `background-image: url('${ Minigames }')`,
-							alt: 'PCN Minigames Lobby',
-							title: 'Minigames',
-							desc: 'Our Minigame server features a wide array of classic Minecraft games; BedWars, King of the Ladder, Mazes, MobArena, Parkour, and Spleef.',
-							href: '/gamemode/minigames'
 						},
 					]}),
 				m('div', { style: 'height: 40px;'}),

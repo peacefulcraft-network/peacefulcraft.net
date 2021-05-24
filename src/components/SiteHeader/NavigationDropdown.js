@@ -20,7 +20,6 @@ export default {
 				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/creative' }, 'Creative Plots Mode'),
 				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/trenchpvp' }, 'TrenchPvP Game Mode'),
 				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/sco' }, 'Sword Craft Online'),
-				m(m.route.Link, { class: 'navigation-dropdown__link', href: '/gamemode/minigames' }, 'Minigames Game Modes'),
 				m(LinkElement, { class: 'navigation-dropdown__link', href: 'https://www.instagram.com/peacefulcraftnetwork/' }, 'Instagram'),
 				m(LinkElement, { class: 'navigation-dropdown__link', href: 'https://twitter.com/PeaceCFNT' }, 'Twitter'),
 				m(LinkElement, { class: 'navigation-dropdown__link', href: 'https://www.twitch.tv/peacefulcraftnt' }, 'Twitch'),

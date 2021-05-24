@@ -124,22 +124,6 @@ m.route(document.body, '/', {
 		}),
 	},
 
-	'/gamemode/minigames': {
-		onmatch: () => Promise.all([
-			import(/* webpackChunkName: "ServerPage" */ '@/pages/ServerPage'),
-			import(/* webpackChunkName: "MinigamesPageCopy" */ '@/copy/gamemodes/Minigames')
-		]).then((values) => {
-			return {
-				view: () => { m('', ''); },
-				server_page: values[0].default,
-				copy: values[1].default
-			};
-		}),
-		render: (fnode) => {
-			return m(DefaultLayout, m(fnode.tag.server_page, { copy: fnode.tag.copy }));
-		},
-	},
-
 	'/voting-links': {
 		onmatch: () => new Promise((resolve) => {
 			import(/* webpackChunkName: "VotingLinksPage" */ '@/pages/VotingLinksPage')
