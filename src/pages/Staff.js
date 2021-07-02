@@ -23,7 +23,7 @@ export default class Staff {
 					m('ul', [
 						m('li', 'beignetboo'),
 						m('li', 'EssoABC'),
-						m('li', '_LunarM00n_'),
+						m('li', 'River'),
 						m('li', 'Pyro152'),
 						m('li', 'Silicalia'),
 						m('li', 'Tholmar'),
