@@ -21,24 +21,25 @@ export default class Staff {
 				m('div.active_staff__flex-member', [
 					m('h5', 'Moderators'),
 					m('ul', [
+						m('li', 'Baguetteabouti1'),
 						m('li', 'beignetboo'),
 						m('li', 'EssoABC'),
+						m('li', 'GhostPhilosopher'),
+                                                m('li', 'PekoIsDaMaster'),
 						m('li', 'River'),
 						m('li', 'Pyro152'),
 						m('li', 'Silicalia'),
 						m('li', 'Tholmar'),
 						m('li', 'unicornbrunette'),
+						m('li', 'Yopal')
 					]),
 				]),
 
 				m('div.active_staff__flex-member', [
 					m('h5', 'Assistants'),
 					m('ul', [
-						m('li', 'Baguetteabouti1'),
-						m('li', 'GhostPhilosopher'),
-						m('li', 'PekoIsDaMaster'),
-						m('li', 'Yopal'),
-					]),   
+						m('li', '')
+					]),
 				]),
 			]),
 
