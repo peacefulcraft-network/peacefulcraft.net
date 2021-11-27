@@ -22,15 +22,15 @@ export default class Staff {
 					m('h5', 'Moderators'),
 					m('ul', [
 						m('li', 'Baguetteabouti1'),
-						m('li', 'beignetboo'),
 						m('li', 'EssoABC'),
 						m('li', 'GhostPhilosopher'),
+						m('li', 'Juulmebro'),
                                                 m('li', 'PekoIsDaMaster'),
-						m('li', 'River'),
 						m('li', 'Pyro152'),
 						m('li', 'Silicalia'),
+						m('li', 'springcricket'),
+						m('li', 'SibylSol'),
 						m('li', 'Tholmar'),
-						m('li', 'unicornbrunette'),
 						m('li', 'Yopal')
 					]),
 				]),
