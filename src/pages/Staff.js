@@ -12,26 +12,23 @@ export default class Staff {
 					m('h5', 'Administrators'),
 					m('ul', [
 						m('li', 'BrokenKage'),
-						m('li', 'Flaminbrownies'),
 						m('li', m('b', 'parsonswy')),
 						m('li', 'Jumbie247'),
+						m('li', 'Pyro152'),
+						m('li', 'springcricket'),
 					]),
 				]),
 
 				m('div.active_staff__flex-member', [
 					m('h5', 'Moderators'),
 					m('ul', [
-						m('li', 'Baguetteabouti1'),
 						m('li', 'EssoABC'),
 						m('li', 'GhostPhilosopher'),
-						m('li', 'Juulmebro'),
                                                 m('li', 'PekoIsDaMaster'),
-						m('li', 'Pyro152'),
 						m('li', 'Silicalia'),
-						m('li', 'springcricket'),
 						m('li', 'SibylSol'),
 						m('li', 'Tholmar'),
-						m('li', 'Yopal')
+						m('li', 'Yopal'),
 					]),
 				]),
 
@@ -48,11 +45,14 @@ export default class Staff {
 				m('div.former_staff__entries', [
 					m('span.former_staff__entry', '0kay0kay'),
 					m('span.former_staff__entry', 'Alexkillercat'),
+					m('span.former_staff__entry', 'Ashleysbudder'),
+					m('span.former_staff__entry', 'Baguetteabouti1'),
 					m('span.former_staff__entry', 'brockroxs99'),
 					m('span.former_staff__entry', 'brody14'),
 					m('span.former_staff__entry', 'CNIAngel'),
 					m('span.former_staff__entry', 'cobra543211'),
 					m('span.former_staff__entry', 'Cuddly_C4'),
+					m('span.former_staff__entry', 'Flaminbrownies'),
 					m('span.former_staff__entry', 'HugeCliff'),
 					m('span.former_staff__entry', 'Illyrial'),
 					m('span.former_staff__entry', 'ISeeYouTrollin'),
