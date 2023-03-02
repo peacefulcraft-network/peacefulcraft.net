@@ -42,9 +42,6 @@ export default {
 					m('span.voting_links_page_link',
 						m(BlueLink, { href: 'https://minecraftservers100.com/vote/6511', newTab: true}, 'Minecraft Servers 100'),
 					),
-					m('span.voting_links_page_link',
-						m(BlueLink, { href: 'https://minecraftservers.biz/servers/3909/', newTab: true}, 'Minecraft Servers Biz'),
-					),
 				]),
 				m('p.banner_page_blurb', `All our players come from either word of mouth or server listing websites.
           Our standing on those listing website is heavily dependent on player votes. The more votes we
