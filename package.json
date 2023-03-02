@@ -4,7 +4,7 @@
 	"description": "PeacefulCraft Network Main Website",
 	"main": "index.js",
 	"scripts": {
-		"build": "webpack src/index.js -p",
+		"build": "webpack src/index.js --mode production",
 		"dev:lint": "eslint src/**/*.js --fix",
 		"dev:stylelint": "stylelint src/**/*.css --fix",
 		"dev:start": "webpack-dev-server"
