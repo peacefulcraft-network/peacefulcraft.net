@@ -5,6 +5,7 @@ import '@/css/pages/BannerPage.css';
 
 import BlueLink from '@/components/BlueLinkElement';
 import VotingBanner from '@/assets/images/LandingPage/Voting.png';
+import WebpImage from '@/components/assets/WebpImage';
 
 export default {
 	view: () => {
@@ -13,7 +14,10 @@ export default {
 				style: {
 					backgroundColor: '#21AA4B',
 				}
-			}, m('img', { src: VotingBanner})),
+			}, m(WebpImage, {
+				src: VotingBanner,
+				alt: 'Voting banner',
+			})),
 
 			m('.banner_page_content', [
 				m('h1.banner_page_title', 'Voting Links'),

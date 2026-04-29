@@ -1,7 +1,17 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
+    "alpha-value-notation": null,
+    "at-rule-no-vendor-prefix": null,
     "block-no-empty": null,
-    "indentation": "tab"
+    "color-function-alias-notation": null,
+    "color-function-notation": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "keyframes-name-pattern": null,
+    "media-feature-range-notation": null,
+    "property-no-vendor-prefix": null,
+    "selector-class-pattern": null,
+    "selector-id-pattern": null,
+    "shorthand-property-no-redundant-values": null
   }
 }

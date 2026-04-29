@@ -1,6 +1,7 @@
 import m from 'mithril';
 
 import SlideshowState from '@/components/Slideshow/SlideshowState';
+import WebpImage from '@/components/assets/WebpImage';
 
 import '@/css/components/Slideshow.css';
 
@@ -20,7 +21,11 @@ export default {
         m('div.slideshow_slide', {
           class: (first++ > 0)? 'enter' : 'active',
         }, [
-          m('img.slideshow_slide_image', { src: vnode.attrs.images[k] }),
+          m(WebpImage, {
+            class: 'slideshow_slide_image',
+            src: vnode.attrs.images[k],
+            alt: `${k} slideshow image`,
+          }),
           m('div.slideshow_slide_title', k),
         ])
       );

@@ -24,7 +24,7 @@ export default class Staff {
 					m('ul', [
 						m('li', 'EssoABC'),
 						m('li', 'GhostPhilosopher'),
-                                                m('li', 'PekoIsDaMaster'),
+						m('li', 'PekoIsDaMaster'),
 						m('li', 'Silicalia'),
 						m('li', 'SibylSol'),
 						m('li', 'Tholmar'),

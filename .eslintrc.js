@@ -1,18 +1,16 @@
 module.exports = {
     'env': {
         'browser': true,
-        'es6': true
+        'es2021': true
     },
     'extends': 'eslint:recommended',
     'globals': {
         'Atomics': 'readonly',
         'SharedArrayBuffer': 'readonly'
     },
-    'parser': 'babel-eslint',
     'parserOptions': {
-        'ecmaVersion': 2018,
-        'sourceType': 'module',
-        'allowImportExportEverywhere': true
+        'ecmaVersion': 'latest',
+        'sourceType': 'module'
     },
     'rules': {
         'indent': [
