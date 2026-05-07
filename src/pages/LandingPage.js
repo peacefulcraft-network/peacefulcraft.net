@@ -50,20 +50,20 @@ export default {
 							desc: 'Creative world divided into claimable plots with environment customizations to enhance builds and WorldEdit to streamline building.',
 							href: '/gamemode/creative'
 						},
-						{ 
-							img: toWebpBackgroundImage(Quarry),
-							alt: 'TrenchPvP Arena - Quarry',
-							title: 'TrenchPvP',
-							desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirely custom experience from our in-house development team. Our custom classes and abilities are sure to provide endless entertainment and hilarity.',
-							href: '/gamemode/trenchpvp'
-						},
-						{ 
-							img: toWebpBackgroundImage(Aincrad),
-							alt: 'Aincrad Castle from Sword Art Online',
-							title: 'SwordCraftOnline RPG',
-							desc: 'SwordCraftOnline is a custom RPG MMO experience developed in-house. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world, fighting custom monsters, dungeon bosses, leveling your character, and acquiring new Sword Skills to vanquish your foes.',
-							href: '/gamemode/sco'
-						},
+						//{ 
+						//	img: toWebpBackgroundImage(Quarry),
+						//	alt: 'TrenchPvP Arena - Quarry',
+						//	title: 'TrenchPvP',
+						//	desc: 'A TMD, KitPvP inspired minigame. TrenchPvP is an entirely custom experience from our in-house development team. Our custom classes and abilities are sure to provide endless entertainment and hilarity.',
+						//	href: '/gamemode/trenchpvp'
+						//},
+						//{ 
+						//	img: toWebpBackgroundImage(Aincrad),
+						//	alt: 'Aincrad Castle from Sword Art Online',
+						//	title: 'SwordCraftOnline RPG',
+						//	desc: 'SwordCraftOnline is a custom RPG MMO experience developed in-house. Inspired by the popular graphic novel and now multi-media hit Sword Art Online. Roam the open world, fighting custom monsters, dungeon bosses, leveling your character, and acquiring new Sword Skills to vanquish your foes.',
+						//	href: '/gamemode/sco'
+						//},
 					]}),
 				m('div', { style: 'height: 40px;'}),
 
@@ -112,13 +112,13 @@ export default {
 							desc: 'Check out our forums for server announcements, staff applications, ban appeals, ideas and suggestions, reporting incidents, getting help, and interacting with the community.',
 							href: 'https://www.peacefulcraft.net/flarum',
 						},
-						{ 
-							img: toWebpBackgroundImage(TransgressionBanner),
-							alt: 'Gavel Icon',
-							title: 'Transgressions',
-							desc: 'All our bans, kicks, mutes, and warnings are publicly available in real time.',
-							href: 'https://adm.peacefulcraft.net/batweb',
-						},
+						//{ 
+						//	img: toWebpBackgroundImage(TransgressionBanner),
+						//	alt: 'Gavel Icon',
+						//	title: 'Transgressions',
+						//	desc: 'All our bans, kicks, mutes, and warnings are publicly available in real time.',
+						//	href: 'https://adm.peacefulcraft.net/batweb',
+						//},
 						{ 
 							img: toWebpBackgroundImage(VotingBanner),
 							alt: 'Ballot Icon',
@@ -133,13 +133,13 @@ export default {
 							desc: 'Do you know how to program, design websites, 3D model, make textures or logos, or have a desire to learn how to do any of those things? All our websites, resource packs, and custom plugins are posted publicly on our GitHub. Feel free to contribute or comb over our code for your own reference.',
 							href: 'https://github.com/peacefulcraft-network',
 						},
-						{ 
-							img: toWebpBackgroundImage(NetworkStatus),
-							alt: 'Generic Status Graph',
-							title: 'Network Status',
-							desc: 'Having connection issues? Or maybe you just like pretty graphs. We publish most of our server monitoring statistics publicly and in realtime.',
-							href: 'https://status.peacefulcraft.net/d/Y7XZ86XZz/peacefulcraft-network-system-overview?orgId=1&refresh=1m&from=now-30m&to=now',
-						},
+						//{ 
+						//	img: toWebpBackgroundImage(NetworkStatus),
+						//	alt: 'Generic Status Graph',
+						//	title: 'Network Status',
+						//	desc: 'Having connection issues? Or maybe you just like pretty graphs. We publish most of our server monitoring statistics publicly and in realtime.',
+						//	href: 'https://status.peacefulcraft.net/d/Y7XZ86XZz/peacefulcraft-network-system-overview?orgId=1&refresh=1m&from=now-30m&to=now',
+						//},
 					]}),
 			]),
 			m('div', { style: 'height: 40px;'}),
