@@ -112,13 +112,13 @@ export default {
 							desc: 'Check out our forums for server announcements, staff applications, ban appeals, ideas and suggestions, reporting incidents, getting help, and interacting with the community.',
 							href: 'https://www.peacefulcraft.net/flarum',
 						},
-						//{ 
-						//	img: toWebpBackgroundImage(TransgressionBanner),
-						//	alt: 'Gavel Icon',
-						//	title: 'Transgressions',
-						//	desc: 'All our bans, kicks, mutes, and warnings are publicly available in real time.',
-						//	href: 'https://adm.peacefulcraft.net/batweb',
-						//},
+						{ 
+							img: toWebpBackgroundImage(TransgressionBanner),
+							alt: 'Gavel Icon',
+							title: 'Transgressions',
+							desc: 'All our bans, kicks, mutes, and warnings are publicly available in real time.',
+							href: 'https://adm.peacefulcraft.net/batweb',
+						},
 						{ 
 							img: toWebpBackgroundImage(VotingBanner),
 							alt: 'Ballot Icon',
